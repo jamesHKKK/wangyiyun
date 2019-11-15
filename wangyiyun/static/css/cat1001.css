@@ -1,0 +1,245 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.discover {
+  width: 982px;
+  height: 1107px;
+  background: url("../img/wrap.png") repeat-y center 0;
+  margin: 0 auto;
+  border: 1px solid #d3d3d3;
+  border-width: 0 1px;
+}
+
+.g-wrap4 {
+  width: 160px;
+  height: 827px;
+  margin-top: 51px;
+  padding: 0 10px 40px;
+  float: left;
+}
+
+.g-wrap4 .tit {
+  height: 25px;
+  padding-left: 14px;
+  font-size: 16px;
+  font-family: "Microsoft Yahei";
+}
+
+.nav {
+  width: 160px;
+  height: 62px;
+}
+
+.nav li {
+  width: 160px;
+  height: 29px;
+  background: url("../img/singer.png");
+  background-position: 0px -30px;
+  margin-bottom: 2px;
+  float: left;
+}
+
+.nav li a {
+  width: 133px;
+  padding-left: 27px;
+  color: #333;
+  line-height: 29px;
+  font-size: 12px;
+  float: left;
+}
+
+.nav li a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#duli {
+  background-position: 0px 0px !important;
+}
+
+.blk {
+  width: 160px;
+  height: 135px;
+  margin: 5px 0 0;
+  padding-top: 16px;
+  border-top: 1px solid #d3d3d3;
+}
+
+.g-mn2c {
+  width: 799px;
+  float: left;
+}
+
+.g-wrap {
+  padding: 40px;
+}
+
+.u-title {
+  width: 719px;
+  height: 42px;
+  border-bottom: 2px solid #c20c0c;
+  float: left;
+}
+
+.f-ff2 {
+  float: left;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.f-ff3 {
+  width: 35px;
+  height: 16px;
+  color: #666;
+  float: left;
+  margin-top: -13px;
+  margin-left: 676px;
+}
+
+.f-ff3:hover {
+  text-decoration: underline;
+}
+
+.m-sgerlist {
+  width: 719px;
+  height: 368px;
+  margin-top: 20px;
+  float: left;
+}
+
+.m-sgerlist ul {
+  width: 736px;
+  height: 368px;
+  float: left;
+}
+
+.m-sgerlist ul li {
+  width: 147px;
+  height: 184px;
+  float: left;
+}
+
+.u-cover {
+  width: 130px;
+  height: 130px;
+  margin-left: 17px;
+}
+
+.u-cover img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.content {
+  width: 100%;
+  margin-top: 8px;
+}
+
+.mingzi {
+  display: block;
+  float: left;
+  max-width: 80%;
+  text-decoration: none;
+  font-size: 12px;
+  color: #000;
+}
+
+.mingzi:hover {
+  text-decoration: underline;
+}
+
+.tu {
+  position: relative;
+  float: right;
+  width: 17px;
+  height: 18px;
+  background: url("../img/icon.png");
+  background-position: 0 -740px;
+}
+
+.n-ltlst {
+  width: 722px;
+  height: 24px;
+  margin-top: 20px;
+  margin-left: -3px;
+  float: left;
+}
+
+.n-ltlst li {
+  width:21px;
+  height:24px;
+  display: inline;
+  float:left;
+  margin-left: 3px;
+  font-size: 14px;
+  text-align: center;
+  line-height: 24px;
+}
+
+.chf-fs0 {
+  width: 45px !important;
+  height: 24px !important;
+  background: #c20c0c;
+  border-radius: 2px;
+  color: #fff;
+  text-align: center;
+  line-height: 24px;
+}
+
+.ch {
+  width: 45px !important;
+  height: 24px !important;
+  text-align: center;
+  line-height: 24px;
+}
+
+.n-ltlst li:hover {
+  text-decoration: underline;
+  color: #333;
+  cursor: pointer;
+}
+.songername{
+  width: 735px;
+  height: 550px;
+  float: left;
+  border-top:1px dashed black ;
+}
+.songername ul{
+  float: left;
+  margin-top: 15px;
+}
+.songername ul li{
+  width: 147px;
+  height: 30px;
+  padding-bottom: 0;
+  line-height: 26px;
+  float: left;
+}
+.songername ul li a{
+  color: #000;
+  float: left;
+}
+.songername ul li a:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.tu1{
+  display: block;
+  float: left;
+  margin: 4px 0 0 2px;
+  width: 17px;
+  height: 18px;
+  background: url("../img/icon.png");
+  background-position: 0 -740px;
+}

@@ -1,0 +1,47 @@
+[
+    {
+        "name": "欧美男歌手",
+        "list": [
+          {
+            "img": "http://p2.music.126.net/AsrGD4Sf0HWJ3mK-Y__PLw==/18981968742063387.jpg?param=130y130",
+            "text": "Alan Walker"
+          },
+          {
+            "img": "http://p2.music.126.net/esEgSi3yXHvBUsZ9msPxeg==/109951164360634823.jpg?param=130y130",
+            "text": "Charlie Puth"
+          },
+          {
+            "img": "http://p2.music.126.net/BDAzK62IJ_Jzd89FntLEow==/109951163571803220.jpg?param=130y130",
+            "text": "Shawn Mendes"
+          },
+          {
+            "img": "http://p2.music.126.net/klw3kafBKLvJ_M95vPomPA==/109951163766146257.jpg?param=130y130",
+            "text": "Justin Bieber"
+          },
+          {
+            "img": "http://p2.music.126.net/zNL_fBxTqtNWxHE8wRr_LA==/109951164141607056.jpg?param=130y130",
+            "text": "Troye Sivan"
+          },
+          {
+            "img": "http://p2.music.126.net/WzisRYQO9v0hnjWF9mmQhg==/1382086117897057.jpg?param=130y130",
+            "text": "Martin Garrix"
+          },
+          {
+            "img": "http://p2.music.126.net/PAjrw0ORKRPWwdX8TaGukQ==/109951164191868755.jpg?param=130y130",
+            "text": "Ed Sheeran"
+          },
+          {
+            "img": "http://p2.music.126.net/Gqk6bMwxT-uJn0dJ4QuCrA==/18922595114111182.jpg?param=130y130",
+            "text": "XXXTENTACION"
+          },
+          {
+            "img": "http://p2.music.126.net/Zf1ESZwNs0MaiqLBAZ2PWQ==/18723583511044011.jpg?param=130y130",
+            "text": "Bruno Mars"
+          },
+          {
+            "img": "http://p2.music.126.net/4nBVmtjIoX5A-QZmLPaHdg==/109951163078482452.jpg?param=130y130",
+            "text": "Eminem"
+          }
+        ]
+      }
+]

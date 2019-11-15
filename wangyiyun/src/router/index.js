@@ -65,6 +65,30 @@ export default new Router({
         },{
           path:'playlist',
           component:()=>import('../page/commentlist.vue'),
+        },{
+          path:'hv',
+          component:()=>import('../page/hv.vue'),
+        },{
+          path:'hyzh',
+          component:()=>import('../page/hyzh.vue'),
+        },{
+          path:'ounan',
+          component:()=>import('../page/ounan.vue'),
+        },{
+          path:'ounv',
+          component:()=>import('../page/ounv.vue'),
+        },{
+          path:'omzh',
+          component:()=>import('../page/omzh.vue'),
+        },{
+          path:'rbnan',
+          component:()=>import('../page/rbnan.vue'),
+        },{
+          path:'rbnv',
+          component:()=>import('../page/rbnv.vue'),
+        },{
+          path:'rbzh',
+          component:()=>import('../page/rbzh.vue'),
         }
       ]
     } ,{
