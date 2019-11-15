@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+  .clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+  }
+  .discover {
+    width: 982px;
+    height: 1493px;
+    background: url("../img/wrap.png") repeat-y center 0;
+    margin: 0 auto;
+    border: 1px solid #d3d3d3;
+    border-width: 0 1px;
+  }
+  
+  .g-wrap4 {
+    width: 160px;
+    height: 827px;
+    margin-top: 51px;
+    padding: 0 10px 40px;
+    float: left;
+  }
+  
+  .g-wrap4 .tit {
+    height: 25px;
+    padding-left: 14px;
+    font-size: 16px;
+    font-family: "Microsoft Yahei";
+  }
+  
+  .nav {
+    width: 160px;
+    height: 62px;
+  }
+  
+  .nav li {
+    width: 160px;
+    height: 29px;
+    background: url("../img/singer.png");
+    background-position: 0px -30px;
+    margin-bottom: 2px;
+    float: left;
+  }
+  
+  .nav li a {
+    width: 133px;
+    padding-left: 27px;
+    color: #333;
+    line-height: 29px;
+    font-size: 12px;
+    float: left;
+  }
+  
+  .nav li a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  #duli {
+    background-position: 0px 0px !important;
+  }
+  
+  .blk {
+    width: 160px;
+    height: 135px;
+    margin: 5px 0 0;
+    padding-top: 16px;
+    border-top: 1px solid #d3d3d3;
+  }

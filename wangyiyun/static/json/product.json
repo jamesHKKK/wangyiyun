@@ -1,0 +1,51 @@
+[
+  {
+    "img":"https://p1.music.126.net/h51h-XL8qnyQ_B-PWJ9Nmg==/109951163719775651.png",
+    "text":"综合",
+    "list":[
+        {
+          "listdata":"首页"
+        },{
+          "listdata":"作品数据"
+        },{
+          "listdata":"粉丝中心"
+        },{
+          "listdata":"我的钱包"
+        },{
+          "listdata":"评论管理"
+        }
+    ]
+  },{
+
+      "img":"https://p1.music.126.net/ATRQbj64I4UfxH_3qD2xqA==/109951163719777590.png",
+      "text":"音乐",
+      "list":[
+        {
+          "listdata":"入驻音乐人"
+        }
+      ]
+  },{
+
+    "img":"https://p1.music.126.net/-rKKE5an6HthPoGOms7p7A==/109951163719776122.png",
+    "text":"视频",
+    "list":[
+      {
+        "listdata":"视频管理"
+      },{
+        "listdata":"达人计划"
+      },{
+        "listdata":"视频收益"
+      },{
+        "listdata":"视频水印"
+      }
+    ]
+},{
+  "img":"https://p1.music.126.net/dZqzFohKvjOULUDSyfQiKg==/109951163719775652.png",
+  "text":"电台",
+  "list":[
+    {
+      "listdata":"入驻电台主播"
+    }
+  ]
+}
+]
