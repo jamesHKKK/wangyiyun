@@ -1,11 +1,14 @@
 <template>
   <div>
 
-    <toubu></toubu>
+    <toubu v-on:zjl="fnk"></toubu>
 
-      <div class="mc">
+        <div v-show="shuju1">
+            <two></two>
+        </div>
+
+      <div class="mc" v-show="!shuju1">
           <div class="mc1">
-            
           <div class="mc2"></div>
           <div class="mc3"></div>
           </div>
@@ -17,14 +20,30 @@
 <script>
 
 
+import two from "../page/mys"
+
 import toubu from "../page/head"
 import foot from "../page/foot"
 export default {
-components:{toubu,foot},
+components:{toubu,foot,two},
+  data(){
+    return{
+      shuju1:true
+    }
+  },
+
+  methods:{
+     fnk(val) {
+      this.shuju1 = val;
+    },
+  }
+
+
+
 };
 </script>
 
-<style scoped>
+<style>
 .mc{
   width: 100%;
   height: 100%;

@@ -184,7 +184,7 @@ a.s-fc4:hover {
 }
 .u-cover .bottom, .u-cover .msk, .n-musicsd .lst .avatar .msk {
   background: url("https://s2.music.126.net/style/web2/img/coverall.png?a3b66c6255a28e913986e98ae9b2dd8e") no-repeat;
- 
+
 }
 .m-info .cnt {
   float: right;
@@ -648,7 +648,7 @@ a {
 .u-title {
   height: 40px;
   border-bottom: 2px solid #c20c0c;
-} 
+}
 .u-title h3 {
   float: left;
   font-size: 24px;
@@ -723,7 +723,7 @@ textarea.u-txt, div.u-txt {
   width: 18px;
   height: 18px;
   background-position: -40px -490px;
-} 
+}
 .m-cmmtipt .btns .icn {
   float: left;
   margin: 0px 10px 0 0;
@@ -770,7 +770,7 @@ textarea.u-txt, div.u-txt {
   position: absolute;
   top: 11px;
   left: -7px;
-} 
+}
 .u-arr .arrline, .u-arr .arrclr, .u-arr .arriner {
   display: block;
   font-family: "SimSun";
@@ -786,7 +786,7 @@ textarea.u-txt, div.u-txt {
 .u-arr .arrclr {
   margin: -10px 0 0 1px;
   color: #fff;
-} 
+}
 h1, h2, h3, h4, h5, h6 {
   font-size: 100%;
 }
@@ -802,7 +802,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .m-cmmt .cmmts img {
   vertical-align: middle;
-} 
+}
 .m-cmmt .cmmts .cntwrap {
   margin-left: 60px;
 }
@@ -862,4 +862,4 @@ h1, h2, h3, h4, h5, h6 {
 .m-cmmt .cmmts div.rp {
   margin-top: 15px;
   text-align: right;
-} 
+}

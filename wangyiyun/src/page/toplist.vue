@@ -164,7 +164,7 @@
         </div>
       </div>
     </div>
-   
+
   </div>
    <foot></foot>
 
@@ -213,5 +213,5 @@ components:{toubu,foot,liyanban},
 </script>
 
 <style scoped>
-@import "../../static/css/toplist.css";
+  @import "../../static/css/toplist.css";
 </style>

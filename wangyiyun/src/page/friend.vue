@@ -1,7 +1,12 @@
 <template>
   <div>
-    <toubu></toubu>
-       <div class="mcc">
+    <toubu v-on:zjl="fnk"></toubu>
+
+        <div v-show="shuju">
+        <two></two>
+        </div>
+
+       <div class="mcc" v-show="!shuju">
           <div class="mc11">
             <div class="mc22"></div>
           <div class="mc33"></div>
@@ -9,6 +14,9 @@
           </div>
 
         </div>
+
+
+
        <foot></foot>
   </div>
 
@@ -16,14 +24,33 @@
 </template>
 
 <script>
+
+import two from "../page/friends"
+
 import toubu from "../page/head"
 import foot from "../page/foot"
 export default {
-components:{toubu,foot},
+components:{toubu,foot,two},
+
+
+    data(){
+        return{
+            shuju:true
+        }
+    },
+    methods:{
+        fnk(val) {
+
+         this.shuju = val;
+      },
+    }
+
+
+
 };
 </script>
 
-<style scoped>
+<style>
 .mcc{
   width: 100%;
   height: 100%;

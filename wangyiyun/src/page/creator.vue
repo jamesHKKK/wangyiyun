@@ -1,7 +1,7 @@
 <template>
   <div>
-    <toubu v-if="show" v-on:eventListen="fn"></toubu>
-    <div v-if="show" class="g-bd" style="padding-top:56px; background-color:#fafafa;">
+    <toubu v-show="!show" v-on:zjl="fnk"></toubu>
+    <div v-show="!show" class="g-bd" style="padding-top:56px; background-color:#fafafa;">
       <h1 class="hd f-ff2">请用你的云音乐帐号登录</h1>
       <div class="lg">
         <div class="create-log">
@@ -57,7 +57,7 @@
       </div>
     </div>
 
-    <div v-if="!show">
+    <div v-show="show">
       <!-- 头部 -->
       <div>
         <div class="top">
@@ -387,7 +387,7 @@
         </div>
       </div>
     </div>
-    <foot v-if="show"></foot>
+    <foot v-show="!show"></foot>
   </div>
 </template>
 <script>
@@ -399,7 +399,7 @@ export default {
     return {
       activeName: "second",
       activeName1:"second",
-      show: false,
+      show: true,
       product: "product",
       activeIndex1: 0,
       activeIndex2: -1,
@@ -408,7 +408,7 @@ export default {
     };
   },
   methods: {
-    fn(val) {
+    fnk(val) {
       this.show = val;
     },
     act1(index) {
