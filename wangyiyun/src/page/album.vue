@@ -7,11 +7,6 @@
      <foot></foot>
 
 </div>
-
-
-
-
-
 </template>
 <script>
 import toubu from "../page/head"

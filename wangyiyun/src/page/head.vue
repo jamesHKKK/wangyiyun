@@ -14,13 +14,16 @@
         </ul>
 
         <div class="head03_03"><a>登录</a></div>
-        <div class="head03_04">创造者中心</div>
+        <div class="head03_04" @click="open">
+                  创造者中心
+          </div>
         <div class="head03_05">
           <div class="a3"> </div>
           <input type="text" name="" id="a4" placeholder="音乐/视频/电台/用户" >
         </div>
       </div>
     </div>
+
     <div class="head_02">
       <div class="a2">
         <ul class="a5">
@@ -60,28 +63,30 @@
 
     </div>
 
-
   </div>
 </template>
 
 <script>
 import "../../static/css/head.css"
 export default {
+
     data(){
+
       return{
         arr:["发现音乐","我的音乐","朋友","商城","音乐人","下载客户端"],
-        arr1:[{path:"/"},{path:"/my"},{path:"/friend"},{path:"/"},{path:"/"},{path:"/download"}]
+        arr1:[{path:"/"},{path:"/my"},{path:"/friend"},{path:"/"},{path:"/"},{path:"/download"}],
       }
     },
     methods:{
       toggle(index){
-
-
       this.$router.push(this.arr1[index])
-      if(index==3){
-            window.open("http://localhost:8080/store/product")
-      }
 
+        if(index==3){
+              window.open("http://localhost:8080/store/product")
+        }
+      },
+      open(){
+        window.open("http://localhost:8080/creator")
       }
     }
 

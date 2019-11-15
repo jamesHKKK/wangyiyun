@@ -1,29 +1,26 @@
 <template>
-<div>
+  <div>
     <toubu></toubu>
-    <div class="discover">
-       贺姝珺负责模块
-    </div>
+    <div class="discover">贺姝珺负责模块</div>
     <foot></foot>
-</div>
-
-
+  </div>
 </template>
 <script>
-import toubu from "../page/head"
-import foot from "../page/foot"
+import toubu from "../page/head";
+import foot from "../page/foot";
 export default {
-components:{toubu,foot},
+  components: { toubu, foot }
 };
 </script>
 
 <style>
-.discover{
+.discover {
   font-size: 30px;
   text-align: center;
-   height:500px;
+  height: 500px;
   line-height: 500px;
 }
-
-
+.head_02 {
+  display: block;
+}
 </style>
