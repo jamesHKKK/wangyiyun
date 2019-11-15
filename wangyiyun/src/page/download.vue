@@ -12,7 +12,7 @@
         </div>
         <ul class="down_06">
 
-        
+
         </ul>
       </div>
     <foot></foot>
@@ -29,17 +29,14 @@ import foot from "../page/foot"
 
 export default {
 components:{toubu,foot},
-
-
 mounted(){
 
   this.$http({
     url:"../../static/json/1.json",
     method:"get",
     params:{},
-
   }).then((res)=>{
-    console.log(res.data[0].list)
+
     var arr=res.data[0].list;
     $.each(arr,function(i){
         $(`
@@ -66,7 +63,7 @@ mounted(){
 
 
     var arr1=res.data[1].list;
-    // console.log(arr1)
+
     $.each(arr1,function(i){
       $(`
        <li>
@@ -87,7 +84,7 @@ mounted(){
     })
 
 
-    
+
 
 
 

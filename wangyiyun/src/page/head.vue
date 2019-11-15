@@ -81,14 +81,14 @@ export default {
       toggle(index){
       this.$router.push(this.arr1[index])
       if(index==3){
-            window.open("http://localhost:8080/store/product")
+            window.open('/store/product','_blank')
+            // window.open("http://localhost:8080/store/product")
       }
-      if(index==3){
-              window.open("http://localhost:8080/store/product")
-        }
+
       },
       open(){
-        window.open("http://localhost:8080/creator")
+         window.open('/creator','_blank')
+        // window.open("http://localhost:8080/creator")
       }
     },
 

@@ -1,7 +1,7 @@
 <template>
   <div>
     <toubu></toubu>
-    <div class="discover">
+
       <div class="recommend" v-if="fatherComponent='recommend'">
         <div class="recommend-swiper">
             <div class="swiper-container swiper-container1">
@@ -17,7 +17,7 @@
                     <div class="swiper-slide" style="background-image:url(http://p1.music.126.net/4AQ-neZ5OYjQ331CkA_I5g==/109951164503082619.jpg?imageView&quality=89)"></div>
                 </div>
                 <!-- Add Pagination -->
-                <div class="swiper-pagination swiper-pagination-white"></div>   
+                <div class="swiper-pagination swiper-pagination-white"></div>
             </div>
             <!-- Add Arrows -->
             <div class="swiper-button-next swiper-button-white swiper-button-tui1"></div>
@@ -28,7 +28,7 @@
             </div>
         </div>
     </div>
-    </div>
+
     <foot></foot>
   </div>
 </template>
@@ -63,12 +63,6 @@ export default {
 
 <style scope>
 @import "../../node_modules/swiper/css/swiper.min.css";
-.discover {
-  font-size: 30px;
-  text-align: center;
-  height: 500px;
-  line-height: 500px;
-}
 .head_02 {
   display: block;
 }
