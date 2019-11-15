@@ -596,6 +596,7 @@ export default {
   line-height: 15px;
 }
 
+
 /* 第二版 */
 
 .top {

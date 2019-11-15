@@ -81,6 +81,7 @@ body, textarea, select, input, button {
     height: 45px;
     margin: 19px 0 0 20px;
     padding: 0 22px 0 0;
+    position: relative;
     /* background-image: none; */
     /* background: url(../../static/img/topbar.png) no-repeat bottom; */
     background-position: right -47px;

@@ -1,14 +1,14 @@
 <template>
-  <div> 
-    
+  <div>
+
     <div class="contain">
       <div class="contain1">
 
         <div class="left">
          <ul>
-         
+
            <li class="zz" v-for="(item,index) in gs" :key="index">
-           
+
              <div  class="i3"><i class="i"></i>{{item.p}}</div>
 
              <div class="i1" >
@@ -25,10 +25,10 @@
              </div>
 
            </li>
-           <!-- 
+           <!--
            <li @click="zjl" class="i3"><i :class="z==true?i:sos"  class="i"></i>创建的歌单</li>
            <div class="i1" v-show="z"></div>
-           
+
            <li class="i3" @click="zhl"><i :class="zz==true?i:sos"></i>收藏的歌单</li>
             <div class="i1" v-show="zz"></div> -->
          </ul>
@@ -47,7 +47,7 @@
                 <h2>{{like}}</h2>
                 <div class="right5">
                   <img :src="img">
-                
+
                   <span>{{name}}</span>
                    <span>{{time}}创建</span>
                 </div>
@@ -57,7 +57,7 @@
                     <i class="right8"><em class="right9"></em>播放</i>
                   </div>
                   <div class="right10"></div>
-                     
+
                   <div class="right11">
                     <i class="q1">收藏</i>
                    <div class="q" ></div>
@@ -98,7 +98,7 @@
             <div v-for="(item,index) in arr"  :key="index">
             <span class="box2"></span> {{item}}
             </div>
-            
+
           </div>
 
 
@@ -130,7 +130,7 @@
 
         </div>
           <!--  -->
-          
+
             <div class="end5">
               <img :src="img">
 
@@ -143,12 +143,12 @@
                  <div class="end9" style="background-position: -60px -490px;"></div>
                   <div class="end11">评论</div>
                  <div class="end10">140</div>
-                
+
               </div>
 
             </div>
 
-         
+
 
 
 
@@ -167,7 +167,7 @@
 </template>
 
 <script>
-import '../../static/css/mys.css'
+
 export default {
   data(){
     return{
@@ -182,17 +182,17 @@ export default {
         like:null,
         time:null,
         name:null,
-        img:null, 
+        img:null,
         tu:null
     }
   },
 
-   
+
     mounted(){
       // console.log(this.$route.push)
       var a=true;
       $(".left").delegate(".i3","click",function(){
-      
+
         if(a){
             $(this).children(".i").addClass("sos")
             $(this).next().css("display","none")
@@ -215,10 +215,10 @@ export default {
     //           var geshou=res[4].list
     //           console.log(geshou)
     //           $.each(geshou,function(i){
-                
+
     //           $(`
 
-                
+
     //             <div class="xx">
 
     //             <div class="oo">
@@ -275,13 +275,13 @@ export default {
         var  geshou=res.data[3].list
         this.gs=geshou
 
-        
+
       }).catch((err)=>{
 
       })
 
     },
- 
+
   methods:{
     succeed(index,indexs){
       if(index==1&&indexs==0){
@@ -304,16 +304,16 @@ export default {
          console.log(a)
          var datas=res.data[2].big;
          console.log(datas)
-        
+
         for(var x=0;x<datas.length;x++){
 
               if(datas[x].name==a){
                 // this.gs=big[x].list
                 var tupian=datas[x].img
                 this.tu=tupian
-                
+
                 this.shuju=datas[x].list
-               
+
                 var likes=datas[x].p4
                 this.like=likes
                 var times=datas[x].p5
@@ -326,13 +326,13 @@ export default {
               }
         }
 
-        
+
       })
 
 
 
-     
-      
+
+
     }
 
   }
@@ -340,6 +340,6 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+@import '../../static/css/mys.css';
 </style>

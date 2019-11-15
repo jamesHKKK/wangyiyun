@@ -10,7 +10,7 @@
                    <span></span>
                    <span></span>
                </div>
-               <!--  -->    
+               <!--  -->
             <div class="wyz2">
                 <ul>
                     <li class="wyz3" v-for="(item,index) in zjl" :key="index" >
@@ -27,7 +27,7 @@
                             </div>
 
                             <div class="wyz7">
-                                   {{item.p2}} 
+                                   {{item.p2}}
                             </div>
                             <div class="wyz8">{{item.p3}}</div>
                             <div class="yinyue">
@@ -41,14 +41,14 @@
                                     <p><span class="yy3">专辑<i class="yy4"></i></span>{{item.p4}}</p>
                                     <p><a>{{item.p5}}</a>/<a>{{item.p6}}</a></p>
                                 </div>
-                               
+
                             </div>
 
 
                             <div class="wyz9">
 
                                 <div v-for="(items,indexs) in item.list2 " :key="indexs"  class="wyz10"><img :src="items.img3" alt=""></div>
-                              
+
 
                             </div>
                             <div class="wyz11">
@@ -66,7 +66,7 @@
                                     <a>评论
                                         <span>{{item.p8}}</span>
                                     </a>
-                                  
+
 
 
 
@@ -79,7 +79,7 @@
                 </ul>
 
             </div>
-            
+
 
            </div>
             <div class="rights">
@@ -111,7 +111,7 @@
                         </div>
 
                     <ul class="ws3">
-                        <li  v-for="(itemsss,indexsss) in zhl" :key="indexsss">    
+                        <li  v-for="(itemsss,indexsss) in zhl" :key="indexsss">
                             <img :src="itemsss.img" alt="">
                             <div class="ws4">
                                 <p>{{itemsss.p}}<i class="ws6"></i><p>
@@ -151,7 +151,7 @@
 </template>
 
 <script>
-import '../../static/css/friend.css'
+
 export default {
     data(){
         return{
@@ -166,16 +166,16 @@ export default {
         this.$http({
             url:"../../static/json/1.json",
             method:"get",
-            params:{},    
+            params:{},
         }).then((res)=>{
-          
+
             this.zjl=res.data[5].list
             this.zmx=res.data[5].list6
-           
+
             this.zhl=res.data[5].list8
-            
+
             this.kaixin=res.data[5]
-            console.log(this.kaixin)
+
 
         })
 
@@ -186,6 +186,6 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+@import '../../static/css/friend.css';
 </style>

@@ -12,7 +12,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-pagination swiper-pagination-white"></div>   
+                    <div class="swiper-pagination swiper-pagination-white"></div>
                 </div>
                 <!-- Add Arrows -->
                 <div class="swiper-button-next swiper-button-white swiper-button-tui1"></div>
@@ -78,7 +78,7 @@
                             <p><a href=""><i></i>{{item.title}}</a></p>
                             <p class="recommend-white-re-bottom-p">{{item.title1}}</p>
                         </li>
-                        
+
                     </ul>
                 </div>
                 <!-- 新碟上架 -->
@@ -108,7 +108,7 @@
                         </div>
                         <div class="swiper-button-next swiper-button-next1 swiper-button-black"></div>
                         <div class="swiper-button-prev swiper-button-prev1 swiper-button-black"></div>
-                    </div>         
+                    </div>
                 </div>
                 <!-- 榜单 -->
                 <div class="recommend-white-re recommend-white-die">
@@ -130,7 +130,7 @@
                                     <a class="recommend-white-blk-top21" href=""><p>{{yun[index].music}}</p></a>
                                     <div class="play">
                                         <a class="play-a" href="">播放</a>
-                                    </div> 
+                                    </div>
                                     <div class="play cang">
                                         <a class="play-a" href="">收藏</a>
                                     </div>
@@ -162,7 +162,7 @@
                             <h4><a href="/user/home?id=1394991253">吃肉不吧唧吧唧嘴</a></h4>
                             <p>
                                 <a href="/user/level" class="level">
-                                    7<i></i> 
+                                    7<i></i>
                                 </a>
                             </p>
                             <div class="button">
@@ -215,7 +215,7 @@
                     <ul>
                         <li v-for="(item,index) in sings.list" v-bind:key="index">
                             <a href="/user/home?id=278438485">
-                                <img :src=item.img alt="">                               
+                                <img :src=item.img alt="">
                             </a>
                             <div class="ifo">
                                 <h4>
@@ -300,18 +300,18 @@ export default {
                     nextEl: '.swiper-button-next1',
                     prevEl: '.swiper-button-prev1',
                 },
-                
+
             });
         });
-        
+
     },
-    methods: {     
-    
+    methods: {
+
     }
 };
 </script>
 
-<style scope>
+<style scoped>
 @import "../../node_modules/swiper/css/swiper.min.css";
 @import "../../static/css/discover.css";
 

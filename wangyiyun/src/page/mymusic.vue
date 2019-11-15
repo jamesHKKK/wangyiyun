@@ -43,7 +43,7 @@ components:{toubu,foot,two},
 };
 </script>
 
-<style>
+<style scoped>
 .mc{
   width: 100%;
   height: 100%;
