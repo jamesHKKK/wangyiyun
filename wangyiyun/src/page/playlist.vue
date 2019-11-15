@@ -1,11 +1,12 @@
 <template>
 <div>
-     <toubu></toubu>
-      down
-    <foot></foot>
+     <toubu>
+     </toubu>
+     <div class="discover">
+         席少彬负责模块
+     </div>
+      <foot></foot>
 </div>
-
-
 
 
 
@@ -19,5 +20,8 @@ components:{toubu,foot},
 </script>
 
 <style>
-
+.discover{
+  font-size: 30px;
+  text-align: center
+}
 </style>

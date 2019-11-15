@@ -1,23 +1,26 @@
 <template>
   <div>
+    <toubu></toubu>
+       <div class="mcc">
+          <div class="mc11">
+            <div class="mc22"></div>
+          <div class="mc33"></div>
 
+          </div>
 
-        <item fatherComponent="friend"></item>
-
-        
-
+        </div>
+       <foot></foot>
   </div>
 
-   
+
 </template>
 
 <script>
-
-import item from "../components/item"
-
+import toubu from "../page/head"
+import foot from "../page/foot"
 export default {
-components:{item}
-}
+components:{toubu,foot},
+};
 </script>
 
 <style>

@@ -1,21 +1,25 @@
 <template>
   <div>
 
+    <toubu></toubu>
+      <div class="mc">
+          <div class="mc1">
+            <div class="mc2"></div>
 
-        <item fatherComponent="mymusic"></item>
-      
+          <div class="mc3"></div>
+
+          </div>
+
+        </div>
+      <foot></foot>
   </div>
-
-   
 </template>
-
 <script>
-
-import item from "../components/item"
-
+import toubu from "../page/head"
+import foot from "../page/foot"
 export default {
-components:{item}
-}
+components:{toubu,foot},
+};
 </script>
 
 <style>
@@ -38,7 +42,7 @@ components:{item}
     height: 268px;
     margin: 0 auto 0;
     padding-top: 104px;
-   
+
     background: url(../../static/img/mymusic.png) no-repeat;
     background-position: 0px 94px;
 

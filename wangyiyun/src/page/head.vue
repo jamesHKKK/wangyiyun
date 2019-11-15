@@ -2,9 +2,9 @@
   <div>
 
     <div class="head1">
-  
+
     <div class="head_01">
-      <div class="a1">  
+      <div class="a1">
         <h1 class="logo"><a href=""></a></h1>
         <ul class="head_03">
 
@@ -19,35 +19,53 @@
           <div class="a3"> </div>
           <input type="text" name="" id="a4" placeholder="音乐/视频/电台/用户" >
         </div>
-
-
-
       </div>
     </div>
-
     <div class="head_02">
       <div class="a2">
         <ul class="a5">
-          <li><span class="a6">推荐</span></li>
-           <li><span class="a6">排行榜</span></li>
-           <li><span class="a6">歌单</span></li>
-            <li><span class="a6">主播电台</span></li>
-             <li><span class="a6">歌手</span></li>
-             <li><span class="a6">新碟上架</span></li>
+          <li><span class="a6">
+                 <router-link :to="{path:'/discover'}">
+                   推荐
+               </router-link>
+            </span></li>
+           <li><span class="a6">
+                 <router-link :to="{path:'/discover/toplist'}">
+                        排行榜
+                 </router-link>
+             </span></li>
+           <li><span class="a6">
+                 <router-link :to="{path:'/discover/playlist'}">
+                    歌单
+               </router-link>
+             </span></li>
+            <li><span class="a6">
+               <router-link :to="{path:'/discover/djradio'}">
+                    主播电台
+               </router-link>
+              </span></li>
+             <li><span class="a6">
+                <router-link :to="{path:'/discover/artist'}">
+                        歌手
+               </router-link>
+               </span></li>
+             <li><span class="a6">
+                <router-link :to="{path:'/discover/album'}">
+                  新碟上架
+               </router-link>
+               </span></li>
         </ul>
-
-
       </div>
-      </div>   
-      
-    </div> 
+      </div>
+
+    </div>
 
 
   </div>
 </template>
 
 <script>
-import "../../static/css/01.css"
+import "../../static/css/head.css"
 export default {
     data(){
       return{
@@ -58,9 +76,12 @@ export default {
     methods:{
       toggle(index){
 
-      console.log(index)
+
       this.$router.push(this.arr1[index])
-      
+      if(index==3){
+            window.open("http://localhost:8080/store/product")
+      }
+
       }
     }
 
@@ -69,5 +90,8 @@ export default {
 </script>
 
 <style>
-
+a{
+  text-decoration: none;
+  color: #ffffff;
+}
 </style>

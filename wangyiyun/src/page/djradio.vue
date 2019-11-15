@@ -1,7 +1,9 @@
 <template>
 <div>
      <toubu></toubu>
-      down
+     <div class="discover">
+        杨棣负责模块
+     </div>
     <foot></foot>
 </div>
 
@@ -19,5 +21,8 @@ components:{toubu,foot},
 </script>
 
 <style>
-
+.discover{
+  font-size: 30px;
+  text-align: center
+}
 </style>

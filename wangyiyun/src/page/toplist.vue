@@ -1,12 +1,12 @@
 <template>
 <div>
-     <toubu></toubu>
-      down
-    <foot></foot>
+    <toubu></toubu>
+    <div class="discover">
+     代敖日格乐负责模块
+    </div>
+   <foot></foot>
+
 </div>
-
-
-
 
 
 </template>
@@ -19,5 +19,8 @@ components:{toubu,foot},
 </script>
 
 <style>
-
+.discover{
+  font-size: 30px;
+text-align: center
+}
 </style>

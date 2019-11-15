@@ -1,12 +1,11 @@
 <template>
 <div>
-     <toubu></toubu>
-      down
+    <toubu></toubu>
+    <div class="discover">
+       贺姝珺负责模块
+    </div>
     <foot></foot>
 </div>
-
-
-
 
 
 </template>
@@ -19,5 +18,12 @@ components:{toubu,foot},
 </script>
 
 <style>
+.discover{
+  font-size: 30px;
+  text-align: center;
+   height:500px;
+  line-height: 500px;
+}
+
 
 </style>
