@@ -10,7 +10,15 @@ module.exports = {
     // Paths
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
-    proxyTable: {},
+    // proxyTable: {
+    //   '/':{
+    //       target:'http://localhost:3000',
+    //       changeOrigin: true,
+    //       pathRewrite:{
+    //           '^/':''
+    //       }
+    //   }
+  // },
 
     // Various Dev Server settings
     host: 'localhost', // can be overwritten by process.env.HOST
@@ -20,7 +28,7 @@ module.exports = {
     notifyOnErrors: true,
     poll: false, // https://webpack.js.org/configuration/dev-server/#devserver-watchoptions-
 
-    
+
     /**
      * Source Maps
      */
@@ -36,7 +44,7 @@ module.exports = {
     cssSourceMap: true
   },
 
-  build: {
+  build:{
     // Template for index.html
     index: path.resolve(__dirname, '../dist/index.html'),
 

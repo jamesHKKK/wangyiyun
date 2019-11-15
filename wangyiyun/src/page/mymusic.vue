@@ -1,14 +1,20 @@
 <template>
   <div>
 
-    <toubu></toubu>
+    <toubu ></toubu>
 
-      <div class="mc">
+      <div class="mc" >
+        <div>
+
+
           <div class="mc1">
-            
+
           <div class="mc2"></div>
           <div class="mc3"></div>
           </div>
+         </div>
+
+
 
         </div>
       <foot></foot>
@@ -21,15 +27,32 @@ import toubu from "../page/head"
 import foot from "../page/foot"
 export default {
 components:{toubu,foot},
+
+data(){
+return{
+show:true
+}
+
+},
+methods:{
+ fn(val){
+   console.log(val)
+   this.show=val
+ }
+},
+mounted(){
+
+}
 };
 </script>
 
 <style>
 .mc{
   width: 100%;
-  height: 100%;
+  height: 700px;
   background: rgb(245, 245, 245)
 }
+
 .mc1{
  width: 980px;
     min-height: 700px;

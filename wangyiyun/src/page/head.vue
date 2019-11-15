@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="head-all">
 
     <div class="head1" :class='fatherComponent?"sssss":""' >
     <div class="head_01">
@@ -12,7 +12,7 @@
           <div class="head03_02"></div>
         </ul>
 
-        <div class="head03_03"><a>登录</a></div>
+        <div class="head03_03" @click="login"><a>登录</a></div>
         <div class="head03_04" @click="open">
                   创造者中心
           </div>
@@ -75,6 +75,7 @@ export default {
       return{
         arr:["发现音乐","我的音乐","朋友","商城","音乐人","下载客户端"],
         arr1:[{path:"/"},{path:"/my"},{path:"/friend"},{path:"/"},{path:"/"},{path:"/download"}],
+        show:true
       }
     },
     methods:{
@@ -82,15 +83,35 @@ export default {
       this.$router.push(this.arr1[index])
       if(index==3){
             window.open('/store/product','_blank')
-            // window.open("http://localhost:8080/store/product")
       }
 
       },
       open(){
          window.open('/creator','_blank')
-        // window.open("http://localhost:8080/creator")
+      },
+      login(){
+          this.$http.get('/findall', {}, {
+          emulateJSON: true
+      }).then(function (res) {
+
+      }, function (error) {
+        console.log(error)
+     })
       }
     },
+     mounted(){
+        this.$http.get('/just', {}, {
+          emulateJSON: true
+        }).then((res)=> {
+        if(res.data.status==0){ //登录成功
+             this.show=false
+        }else if(res.data.status==1){ //还未登录
+             this.show=true
+        }
+           this.$emit("eventListen",this.show)
+       }, function (error) {
+       })
+      }
 
     // mounted(){
     //    console.log()

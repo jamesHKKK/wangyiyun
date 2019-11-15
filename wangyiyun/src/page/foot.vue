@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="">
     <div class="g-ft">
       <div class="m-ft">
         <div class="copy">
