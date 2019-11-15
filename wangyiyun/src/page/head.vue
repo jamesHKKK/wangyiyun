@@ -1,8 +1,7 @@
 <template>
   <div>
 
-    <div class="head1">
-
+    <div class="head1" :class='fatherComponent?"sssss":""' >
     <div class="head_01">
       <div class="a1">
         <h1 class="logo"><a href=""></a></h1>
@@ -67,11 +66,12 @@
 </template>
 
 <script>
+
+
 import "../../static/css/head.css"
 export default {
-
+    props:["fatherComponent"],
     data(){
-
       return{
         arr:["发现音乐","我的音乐","朋友","商城","音乐人","下载客户端"],
         arr1:[{path:"/"},{path:"/my"},{path:"/friend"},{path:"/"},{path:"/"},{path:"/download"}],
@@ -80,16 +80,24 @@ export default {
     methods:{
       toggle(index){
       this.$router.push(this.arr1[index])
-
-        if(index==3){
+      if(index==3){
+            window.open("http://localhost:8080/store/product")
+      }
+      if(index==3){
               window.open("http://localhost:8080/store/product")
         }
       },
       open(){
         window.open("http://localhost:8080/creator")
       }
-    }
+    },
 
+    // mounted(){
+    //    console.log()
+    //    if(this.fatherComponent){
+    //        $(".head1").css("position","fixed")
+    //    }
+    // }
 
 }
 </script>
@@ -98,5 +106,9 @@ export default {
 a{
   text-decoration: none;
   color: #ffffff;
+}
+.sssss{
+  position: fixed;
+  z-index: 10 ;
 }
 </style>

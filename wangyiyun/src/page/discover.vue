@@ -13,6 +13,9 @@ export default {
 };
 </script>
 
+
+
+
 <style>
 .discover {
   font-size: 30px;

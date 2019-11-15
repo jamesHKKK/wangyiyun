@@ -35,13 +35,15 @@ export default new Router({
         },{
           path:'discover/album',
           component:()=>import('../page/album.vue')
-        },{
+        },
+        {
           path:'discover/toplist',
           component:()=>import('../page/toplist.vue')
         },{
           path:'discover/artist',
           component:()=>import('../page/artist.vue'),
-        },{
+        },
+        {
           path:'discover/djradio',
           component:()=>import('../page/djradio.vue'),
         },{
