@@ -1,0 +1,167 @@
+body, textarea, select, input, button {
+    font-size: 12px;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-text-size-adjust: none;
+}
+.head1{
+    width: 100%;
+   
+  }
+  .head_01{
+    width: 100%;
+    height: 70px;
+    background: #242424;
+  }
+  .head_02{
+     width: 100%;
+      height: 35px;
+      background-color: #C20C0C;
+  }
+  .a1{
+    width: 1100px;
+    height: 70px;
+    margin: 0 auto;
+   
+  }
+  .a2{
+    width: 1100px;
+    height: 35px;
+ 
+    margin: 0 auto;
+    }
+    .logo{
+      float: left;
+      width: 176px;
+      height: 69px;
+      background: url('../../static/img/topbar.png');
+      background-position: 0 0;
+    }
+    .logo a{
+      float: left;
+      width: 157px;
+      height: 100%;
+      padding-right: 20px;
+    }
+    .head_03{
+      float: left;
+      width: 508px;
+      height: 70px;
+      position: relative;
+    
+    }
+    .head_03 li{
+      float: left;
+      padding: 0 19px;
+      text-align: center;
+      line-height: 70px;
+      height: 70px;
+      font-size: 14px;
+      color: #ccc;
+    }
+    .head_03 li:hover{
+      background: #000;
+      color: #fff;
+  }
+  .head_03 li:nth-child(1){
+    background: #000;
+      color: #fff;
+  }
+  .head03_02{
+    position: absolute;
+    top: 21px;
+    right: -20px;
+    width: 28px;
+    height: 19px;
+    background: url(../../static/img/topbar.png) no-repeat 0;
+    background-position: -190px 0;
+  }
+  .head03_03{
+    float: right;
+    height: 45px;
+    margin: 19px 0 0 20px;
+    padding: 0 22px 0 0;
+    /* background-image: none; */
+    /* background: url(../../static/img/topbar.png) no-repeat bottom; */
+    background-position: right -47px;
+  }
+  .head03_03 a{
+    display: block;
+    width: 28px;
+    margin-top: 7px;
+    color: #787878; 
+  }
+  .head03_04{
+    float: right;
+    width: 90px;
+    height: 32px;
+    margin: 19px 0 0 12px;
+    box-sizing: border-box;
+    padding-left: 16px;
+    line-height: 33px;
+    border-radius: 20px;    
+    color: #ccc;
+    border: 1px solid #4F4F4F;
+  }
+  .head03_04:hover{
+    border: 1px solid #ccc;
+    color: #fff;
+  }
+  .head03_05 {
+    float: right;
+    width: 158px;
+    height: 32px;
+    margin-top: 19px;
+    background-position: 0 -99px;
+    background-color: #fff;
+    border-radius: 32px;
+  }
+  .a3{
+      width: 20px;
+      height: 20px;
+      background: url(../../static/img/topbar.png) no-repeat 0;
+      background-position: -8px -102px;
+      float: left;
+      margin-left: 10px;
+      margin-top: 3px;
+  }
+  #a4{
+    width: 75%;
+    color: #9b9b9b;
+    line-height: 16px;
+    font-size: 12px;
+    border: none;
+    float: left;
+    margin-left: 0px;
+    margin-top: 9px;
+    outline: none;
+  }
+ .a5{
+    float: left;
+    padding-left: 180px;
+ }
+ .a5 li{
+    float: left;
+    height: 34px;
+    text-align: center;
+ }
+ .a6{
+    display: inline-block;
+    height: 20px;
+    padding: 0 13px;
+    margin: 7px 17px 0;
+    border-radius: 20px;
+    line-height: 21px;
+    color: #fff;
+ }
+ .a5 li:hover .a6{
+    background: #9B0909;
+ }
+.a5 li:nth-child(1) span{
+    background: #9B0909;
+}
+.head_03 li a{
+  width: 100%;
+  height: 100%;
+  
+}
