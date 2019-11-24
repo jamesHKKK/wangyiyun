@@ -34,7 +34,7 @@ components:{toubu,foot},
 mounted(){
 
   this.$http({
-    url:"../../static/1.json",
+    url:"../../static/json/1.json",
     method:"get",
     params:{},
 
