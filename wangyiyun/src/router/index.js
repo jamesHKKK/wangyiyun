@@ -25,23 +25,27 @@ export default new Router({
           path:'download',
           component:()=>import("../page/download.vue")
         },
+
         {
           path:'discover',
           component:()=>import("../page/discover.vue"),
-        }, {
+        },
+         {
           path:'discover/playlist',
           component: ()=>import("../page/playlist.vue")
         },
         {
           path:'discover/album',
           component:()=>import('../page/album.vue')
-        },{
+        },
+        {
           path:'discover/toplist',
           component:()=>import('../page/toplist.vue')
         },{
           path:'discover/artist',
           component:()=>import('../page/artist.vue'),
-        },{
+        },
+        {
           path:'discover/djradio',
           component:()=>import('../page/djradio.vue'),
         }

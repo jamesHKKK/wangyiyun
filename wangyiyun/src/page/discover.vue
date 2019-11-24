@@ -17,6 +17,9 @@ components:{toubu,foot},
 };
 </script>
 
+
+
+
 <style>
 .discover{
   font-size: 30px;

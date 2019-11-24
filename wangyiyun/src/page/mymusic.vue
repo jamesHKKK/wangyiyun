@@ -2,12 +2,12 @@
   <div>
 
     <toubu></toubu>
+
       <div class="mc">
           <div class="mc1">
-            <div class="mc2"></div>
-
+            
+          <div class="mc2"></div>
           <div class="mc3"></div>
-
           </div>
 
         </div>
@@ -15,6 +15,8 @@
   </div>
 </template>
 <script>
+
+
 import toubu from "../page/head"
 import foot from "../page/foot"
 export default {

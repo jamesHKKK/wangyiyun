@@ -1,4 +1,5 @@
 'use strict'
+const webpack=require('webpack')  //引入jquery
 const path = require('path')
 const utils = require('./utils')
 const config = require('../config')
@@ -78,5 +79,17 @@ module.exports = {
     net: 'empty',
     tls: 'empty',
     child_process: 'empty'
-  }
+  },
+
+  
+   //引入jquery
+   plugins:[
+    new webpack.ProvidePlugin({
+      $:"jquery",
+      jQuery:"jquery",
+      "windows.jQuery":"jquery"
+    })
+  ]
+
+
 }
