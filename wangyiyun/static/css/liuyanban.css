@@ -1,0 +1,225 @@
+.n-cmt {
+    margin-top: 40px;
+  }
+  .u-title {
+    height: 40px;
+    border-bottom: 2px solid #c20c0c;
+  }
+  .u-title {
+    height: 40px;
+    border-bottom: 2px solid #c20c0c;
+  } 
+  .u-title h3 {
+    float: left;
+    font-size: 24px;
+    font-weight: normal;
+  }
+  .u-title-1 h3 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .u-title .sub {
+    float: left;
+    margin: 13px 0 0 10px;
+  }
+  .u-title .sub {
+    float: left;
+    margin: 13px 0 0 10px;
+  }
+  .s-fc3, a.s-fc3:hover {
+    color: #666;
+  }
+  .m-cmmt {
+    margin-top: 20px;
+  }
+  .m-cmmt .iptarea {
+    margin-bottom: 20px;
+  }
+  .m-cmmt .head, .m-cmmt .head img {
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-right: -100px;
+  }
+  .f-pr {
+    position: relative;
+    zoom: 1;
+  }
+  .m-cmmt .iptarea .m-cmmtipt {
+    margin-left: 62px;
+  }
+  .u-txtwrap {
+    padding-right: 14px;
+  }
+  div.holder-parent {
+    position: relative;
+    zoom: 1;
+  }
+  textarea {
+    resize: none;
+    overflow: auto;
+  }
+  .u-txt {
+    height: 19px;
+    margin: 0;
+    padding: 5px 6px 6px;
+    border: 1px solid #cdcdcd;
+    border-radius: 2px;
+    line-height: 19px;
+  }
+  textarea.u-txt, div.u-txt {
+    width: 100%;
+    margin-right: -20px;
+  }
+  .m-cmmtipt .area {
+    height: 50px;
+    display: block;
+  }
+  .m-cmmtipt .btns {
+    clear: both;
+    padding-top: 10px;
+  }
+  .u-icn-36 {
+    width: 18px;
+    height: 18px;
+    background-position: -40px -490px;
+  } 
+  .m-cmmtipt .btns .icn {
+    float: left;
+    margin: 0px 10px 0 0;
+    cursor: pointer;
+  }
+  .u-icn-41 {
+    width: 18px;
+    height: 18px;
+    background-position: -60px -490px;
+  }
+  .u-btn, div.u-page a, div.u-page a.js-selected, div.u-page a.znxt.js-disabled, div.u-page a.zprv.js-disabled {
+    background: url("https://s2.music.126.net/style/web2/img/button.png?1f3066bcc6da18be0fc7098f9c1acf11") no-repeat 0 9999px;
+  }
+  .m-cmmtipt .btns .icn {
+    float: left;
+    margin: 0px 10px 0 0;
+    cursor: pointer;
+  }
+  .u-btn {
+    display: inline-block;
+  }
+  .u-btn-1 {
+    width: 46px;
+    height: 25px;
+    background-position: -84px -64px;
+    color: #fff;
+    text-align: center;
+    line-height: 25px;
+  }
+  .m-cmmtipt .btns .btn {
+    float: right;
+  }
+  .m-cmmtipt .btns .zs {
+    float: right;
+    margin-right: 10px;
+    line-height: 25px;
+  }
+  .u-arr {
+    width: 13px;
+    height: 14px;
+    overflow: hidden;
+  }
+  .m-cmmtipt .corr {
+    position: absolute;
+    top: 11px;
+    left: -7px;
+  } 
+  .u-arr .arrline, .u-arr .arrclr, .u-arr .arriner {
+    display: block;
+    font-family: "SimSun";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    height: 10px;
+    line-height: normal;
+  }
+  .u-arr .arrline {
+    color: #cdcdcd;
+  }
+  .u-arr .arrclr {
+    margin: -10px 0 0 1px;
+    color: #fff;
+  } 
+  h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+  }
+  .u-hd4 {
+    position: relative;
+    top: 1px;
+    height: 20px;
+    border-bottom: 1px solid #cfcfcf;
+  }
+  .m-cmmt .cmmts .itm {
+    padding: 15px 0;
+    border-bottom: 1px dotted #999;
+  }
+  .m-cmmt .cmmts img {
+    vertical-align: middle;
+  } 
+  .m-cmmt .cmmts .cntwrap {
+    margin-left: 60px;
+  }
+  .m-cmmt .cmmts .cntwrap .f-brk, .m-cmmt .cmmts .cnt.f-brk {
+    word-break: break-word;
+  }
+  
+  .m-cmmt .cmmts .cnt {
+    width: 100%;
+    overflow: hidden;
+    line-height: 20px;
+  }
+  .f-brk {
+    word-wrap: break-word;
+    word-break: break-word;
+    white-space: normal;
+  }
+  .m-cmmt .cmmts .cntwrap .s-fc7 {
+    margin-right: 5px;
+  }
+  
+  .s-fc7, a.s-fc7:hover {
+    color: #0c73c2;
+  }
+  .m-cmmt .cmmts div.rp {
+    margin-top: 15px;
+    text-align: right;
+  }
+  .m-cmmt .cmmts .time {
+    float: left;
+    margin: 0 !important;
+  }
+  .s-fc4, a.s-fc4:hover {
+    color: #999;
+  }
+  .m-cmmt .cmmts .cntwrap .u-icn2 {
+    margin-right: 5px;
+    vertical-align: -2px;
+  }
+  
+  .m-cmmt .cmmts .zan {
+    margin-top: -4px;
+  }
+  
+  .u-icn2 {
+    background: url("https://s2.music.126.net/style/web2/img/icon2.png?4f4872e141e6243a0bc7eaba316d1296") no-repeat 0 9999px;
+  }
+  .u-icn2-12, .u-icn2-13 {
+    width: 15px;
+    height: 14px;
+    background-position: -150px 0;
+  }
+  .m-cmmt .cmmts .sep {
+    margin: 0 8px;
+    color: #ccc;
+  }
+  .m-cmmt .cmmts div.rp {
+    margin-top: 15px;
+    text-align: right;
+  } 
