@@ -128,8 +128,12 @@
                                 </div>
                                 <div class="recommend-white-blk-top2">
                                     <a class="recommend-white-blk-top21" href=""><p>{{yun[index].music}}</p></a>
-                                    <a href="">播放</a>
-                                    <a href="">收藏</a>
+                                    <div class="play">
+                                        <a class="play-a" href="">播放</a>
+                                    </div> 
+                                    <div class="play cang">
+                                        <a class="play-a" href="">收藏</a>
+                                    </div>
                                 </div>
                             </div>
                             <div class="recommend-white-blk-bottom">
@@ -312,5 +316,35 @@ export default {
 <style scope>
 @import "../../node_modules/swiper/css/swiper.min.css";
 @import "../../static/css/discover.css";
-
+.recommend-white-blk-top2 .play{
+    display: block;
+    float: left;
+    width: 22px;
+    height: 22px;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-right: 10px;
+    position: relative;
+    background: url(https://s2.music.126.net/style/web2/img/index/index.png?c770412fdb6e7f6bb63fb25398fc594a) no-repeat;
+    background-position: -267px -205px;
+}
+.recommend-white-blk-top2 .play-a{
+    display: none;
+    position: absolute;
+    top: 35px;
+    left: 35px;
+    width: 50px;
+    height: 30px;
+    font-size: 18px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 30px;
+}
+.recommend-white-blk-top2 .play:hover .play-a{
+    display: block;
+}
+.recommend-white-blk-top2 .cang{
+    background: url(https://s2.music.126.net/style/web2/img/index/index.png?c770412fdb6e7f6bb63fb25398fc594a) no-repeat;
+    background-position: -300px -205px;
+}
 </style>
