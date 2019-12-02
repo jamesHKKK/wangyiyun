@@ -7,9 +7,12 @@ import 'swiper'
 // Vue.config.productionTip = false
 
 /* eslint-disable no-new */
+import ElementUI from 'element-ui';
+
+import 'element-ui/lib/theme-chalk/index.css';
 import   Axios  from  'axios'
 Vue.prototype.$http=Axios
-
+Vue.use(ElementUI);
 import $ from "jquery"
 
 new Vue({

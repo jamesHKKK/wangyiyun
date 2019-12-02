@@ -1,0 +1,123 @@
+.discover {
+  text-align: center;
+}
+
+.bd {
+  width: 980px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid #d3d3d3;
+  border-width: 0 1px;
+}
+
+.g-wrap {
+  padding: 40px;
+}
+
+.u-title {
+  height: 40px;
+  border-bottom: 2px solid #c20c0c;
+}
+
+.u-title h3 {
+  width: 96px;
+  height: 31px;
+  float: left;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  margin: 20px 0 0 -33px;
+  font-size: 12px;
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.ul li {
+  padding-left: 33px;
+  display: inline-block;
+  width: 140px;
+  height: 188px;
+  overflow: hidden;
+  padding: 0 0 30px 50px;
+  line-height: 1.4;
+  font-size: 12px;
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.cover {
+  margin-left: -57px;
+  position: relative;
+}
+
+.msk {
+  width: 153px;
+  height: 130px;
+  background: url(https://s2.music.126.net/style/web2/img/coverall.png?a3b66c6255a28e913986e98ae9b2dd8e) no-repeat;
+  background-position: -9px -845px;
+  top: 0px;
+  right: 0px;
+  position: absolute;
+}
+
+.bofang {
+  left: 130px;
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  bottom: 60px;
+  background: url(https://s2.music.126.net/style/web2/img/iconall.png?666dfb76d45748115ad46e3289c67e1f) no-repeat;
+  background-position: 0 -140px;
+}
+
+.dec {
+  margin: 8px 0 3px;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #333;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: left;
+}
+
+.dec a {
+  text-decoration: none;
+  color: #000000;
+  margin-left: 33px;
+}
+
+.f-thide {
+  width: 130px;
+  display: inline-block;
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.f-thide a {
+  color: #666;
+  cursor: pointer;
+  text-align: left;
+}
+#tab{
+  float: left;
+  margin: 12px 0 0 20px;
+}
+#tab a{
+  color: #666666;
+}
+#tab span{
+  margin: 0 10px;
+  color: #c7c7c7;
+}
