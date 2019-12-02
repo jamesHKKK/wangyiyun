@@ -541,6 +541,37 @@ i{
 .white-right-myinfo ul li span{
     margin-left: 2px;
 }
+.recommend-white-blk-top2 .play{
+    display: block;
+    float: left;
+    width: 22px;
+    height: 22px;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-right: 10px;
+    position: relative;
+    background: url(https://s2.music.126.net/style/web2/img/index/index.png?c770412fdb6e7f6bb63fb25398fc594a) no-repeat;
+    background-position: -267px -205px;
+}
+.recommend-white-blk-top2 .play-a{
+    display: none;
+    position: absolute;
+    top: 35px;
+    left: 35px;
+    width: 50px;
+    height: 30px;
+    font-size: 18px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 30px;
+}
+.recommend-white-blk-top2 .play:hover .play-a{
+    display: block;
+}
+.recommend-white-blk-top2 .cang{
+    background: url(https://s2.music.126.net/style/web2/img/index/index.png?c770412fdb6e7f6bb63fb25398fc594a) no-repeat;
+    background-position: -300px -205px;
+}
 /* 入驻歌手 */
 .white-right-singer{
     width:250px;
