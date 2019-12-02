@@ -3,7 +3,7 @@
      <toubu>
      </toubu>
      <div class="discover">
-         席少彬负责模块
+         代奥日格勒负责模块
      </div>
       <foot></foot>
 </div>
