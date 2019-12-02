@@ -230,9 +230,7 @@
             </div>
         </div>
     </div>
-
     <foot></foot>
-    
   </div>
 </template>
 <script>
@@ -242,6 +240,7 @@ import foot from "../page/foot";
 import axios from '../../node_modules/axios'
 import $ from 'jquery'
 export default {
+    components: { toubu, foot },
     data() {
         return {
             current:"0",
@@ -258,9 +257,6 @@ export default {
             sings:"",
             lun:""
         }
-    },
-    methods: {
-        
     },
     mounted() {
         this.$http.get("../../static/json/hotdoor.json").then((res)=>{
@@ -280,39 +276,38 @@ export default {
             return this
         }).then(()=>{
             var swiper1=new Swiper('.swiper-container1', {
-            loop : true,
-            spaceBetween: 30,
-            effect: 'fade',
-            autoplay: {
-                delay: 3000,
-            },
-            pagination: {
-                el: '.swiper-pagination',
-                clickable: true,
-            },
-            navigation: {
-                nextEl: '.swiper-button-tui1',
-                prevEl: '.swiper-button-tui2',
-            },
-        });
-        var swiper2 = new Swiper('.swiper-container2', {
-            loop : true,
-            slidesPerView: 5,
-            slidesPerGroup : 5,
-            // direction: getDirection(),
-            navigation: {
-                nextEl: '.swiper-button-next1',
-                prevEl: '.swiper-button-prev1',
-            },
-            
-        });
+                loop : true,
+                spaceBetween: 30,
+                effect: 'fade',
+                autoplay: {
+                    delay: 3000,
+                },
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                },
+                navigation: {
+                    nextEl: '.swiper-button-tui1',
+                    prevEl: '.swiper-button-tui2',
+                },
+            });
+            var swiper2 = new Swiper('.swiper-container2', {
+                loop : true,
+                slidesPerView: 5,
+                slidesPerGroup : 5,
+                // direction: getDirection(),
+                navigation: {
+                    nextEl: '.swiper-button-next1',
+                    prevEl: '.swiper-button-prev1',
+                },
+                
+            });
         });
         
-       
-
     },
+    methods: {     
     
-    components: { toubu, foot }
+    }
 };
 </script>
 
