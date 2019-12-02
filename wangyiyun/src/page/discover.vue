@@ -1,7 +1,7 @@
 <template>
   <div>
     <toubu></toubu>
-    <div class="discover">
+    <div class="discover-recommend">
         <div class="recommend" v-if="fatherComponent='recommend'">
             <div class="recommend-swiper">
                 <div class="swiper-container swiper-container1">
@@ -236,9 +236,9 @@
   </div>
 </template>
 <script>
+import Swiper from 'swiper'
 import toubu from "../page/head";
 import foot from "../page/foot";
-import Swiper from 'swiper'
 import axios from '../../node_modules/axios'
 import $ from 'jquery'
 export default {
@@ -277,9 +277,9 @@ export default {
             this.sing=res.data[4]
             this.sings=res.data[5]
             this.lun=res.data[6].list
-        });
-        
-        var swiper1=new Swiper('.swiper-container1', {
+            return this
+        }).then(()=>{
+            var swiper1=new Swiper('.swiper-container1', {
             loop : true,
             spaceBetween: 30,
             effect: 'fade',
@@ -306,6 +306,9 @@ export default {
             },
             
         });
+        });
+        
+       
 
     },
     
@@ -316,35 +319,5 @@ export default {
 <style scope>
 @import "../../node_modules/swiper/css/swiper.min.css";
 @import "../../static/css/discover.css";
-.recommend-white-blk-top2 .play{
-    display: block;
-    float: left;
-    width: 22px;
-    height: 22px;
-    margin-top: 10px;
-    cursor: pointer;
-    margin-right: 10px;
-    position: relative;
-    background: url(https://s2.music.126.net/style/web2/img/index/index.png?c770412fdb6e7f6bb63fb25398fc594a) no-repeat;
-    background-position: -267px -205px;
-}
-.recommend-white-blk-top2 .play-a{
-    display: none;
-    position: absolute;
-    top: 35px;
-    left: 35px;
-    width: 50px;
-    height: 30px;
-    font-size: 18px;
-    border: 1px solid black;
-    text-align: center;
-    line-height: 30px;
-}
-.recommend-white-blk-top2 .play:hover .play-a{
-    display: block;
-}
-.recommend-white-blk-top2 .cang{
-    background: url(https://s2.music.126.net/style/web2/img/index/index.png?c770412fdb6e7f6bb63fb25398fc594a) no-repeat;
-    background-position: -300px -205px;
-}
+
 </style>
