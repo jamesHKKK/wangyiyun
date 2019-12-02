@@ -1,4 +1,5 @@
 <template>
+<!-- 2 -->
   <div>
     <toubu></toubu>
     <div class="discover">
