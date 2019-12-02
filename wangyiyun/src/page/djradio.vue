@@ -1,5 +1,5 @@
 <template>
-<!-- 2 -->
+
   <div>
     <toubu></toubu>
     <div class="discover">
@@ -770,7 +770,7 @@
   </div>
 </template>
 <script>
-import "../../static/js/zbdt";
+// import "../../static/js/zbdt";
 import toubu from "../page/head";
 import foot from "../page/foot";
 export default {

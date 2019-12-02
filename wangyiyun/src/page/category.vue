@@ -1,5 +1,5 @@
 <template>
-<!-- 1 -->
+
   <div>
     <toubu></toubu>
     <div class="bodyer">

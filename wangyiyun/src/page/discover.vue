@@ -61,18 +61,8 @@ export default {
 
 
 
-<<<<<<< HEAD
-<style scoped>
-.discover {
-  font-size: 30px;
-  text-align: center;
-  height: 500px;
-  line-height: 500px;
-}
-=======
 <style scope>
 @import "../../node_modules/swiper/css/swiper.min.css";
->>>>>>> c4ddd4b5457433ba96f5281ecda8bfcf2c5dcd82
 .head_02 {
   display: block;
 }
