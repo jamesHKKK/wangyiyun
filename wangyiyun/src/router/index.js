@@ -58,6 +58,9 @@ export default new Router({
           component:()=>import('../page/creator.vue'),
         }
       ]
+    } ,{
+      path:'/a',
+      component:()=>import('../page/product_1.vue'),
     }
   ]
 })
