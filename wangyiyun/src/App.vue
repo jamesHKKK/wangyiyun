@@ -1,7 +1,7 @@
 <template>
   <div>
     <router-view/>
-    <div class="m-back" v-if="btnBack" @click="backTop"></div>
+    <div class="comment-back" v-if="btnBack" @click="backTop"></div>
   </div>
 </template>
 
@@ -48,7 +48,7 @@ export default {
 </script>
 
 <style scope>
-.m-back{
+.comment-back{
     display: block;
     position: fixed;
     left: 50%;

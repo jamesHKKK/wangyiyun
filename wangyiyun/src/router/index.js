@@ -62,6 +62,9 @@ export default new Router({
         },{
           path:'cat',
           component:()=>import('../page/cat.vue'),
+        },{
+          path:'playlist',
+          component:()=>import('../page/commentlist.vue'),
         }
       ]
     } ,{
