@@ -1,0 +1,26 @@
+<template>
+<div>
+     <toubu></toubu>
+     <div class="discover">
+       席少彬负责模块
+     </div>
+     <foot></foot>
+
+</div>
+</template>
+<script>
+import toubu from "../page/head"
+import foot from "../page/foot"
+export default {
+components:{toubu,foot},
+};
+</script>
+
+<style scoped>
+.discover{
+    font-size: 30px;
+    text-align: center;
+    height:500px;
+     line-height: 500px;
+}
+</style>

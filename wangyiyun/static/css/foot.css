@@ -1,0 +1,49 @@
+.g-ft {
+  position: relative;
+  height: 148px;
+  overflow: hidden;
+  border-top: 1px solid #d3d3d3;
+  background: #f2f2f2;
+}
+.m-ft{
+    width: 980px;
+    margin: 0 auto;
+}
+.copy{
+  float: left;
+  width: 520px;
+  padding-top: 15px;
+  line-height: 24px;
+}
+.s-fc4{
+  color: #999999;
+}
+.g-ft .line{
+  margin: 0 8px 0 10px;
+  color: #c2c2c2;
+}
+.s-fc3{
+
+  color:#666;
+}
+.sep{
+  margin-right: 14px;
+}
+.alink{
+  color: #333333;
+}
+.m-ft  .enter{
+  width: 330px;
+  margin-top: 12px;
+  float: right;
+}
+.enter img{
+  width: 100%;
+
+}
+
+
+
+
+
+
