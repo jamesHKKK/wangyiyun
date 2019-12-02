@@ -1,0 +1,664 @@
+*{
+    margin: 0;padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #333 !important;
+}
+a:hover{
+    text-decoration: underline;
+}
+i{
+    list-style: none;
+}
+
+.recommend{
+    width: 100%;
+    height: 285px;
+    animation: backg 48s cubic-bezier(1,0,0,1) infinite;
+    background-size: 6000px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.recommend-swiper {
+    margin: 0 auto;
+    width: 100%;
+    height: 285px;
+    position: relative;
+}
+.swiper-container1{
+    float: left;
+    width: 100%;
+    height: 285px;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+}
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+}
+.swiper-slide-aaa{
+    width: 730px;
+    height: 285px;
+    position: absolute;
+    left: 50%;
+    margin-left: -492px;
+}
+.swiper-slide-aaa img{
+    width: 730px;
+    height: 285px;
+}
+.swiper-pagination-bullet{
+    background: white;
+}
+.swiper-pagination-bullet-active{
+    background:#9f0606;
+}
+.swiper-button-white:hover{
+    background: rgb(156, 151, 151);
+    opacity: .5;
+}
+.recommend-swiper .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 8px;
+}
+.recommend-swiper .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: 10px;
+    left: 50%;
+    width: 730px;
+    margin-left: -490px;
+}
+.swiper-button-tui1{
+    position: absolute;
+    right: 50%;
+    margin-right: -540px;
+}
+.swiper-button-tui2{
+    position: absolute;
+    left: 50%;
+    margin-left: -540px;
+}
+.recommend-download{
+    position: absolute;
+    top: 0;
+    z-index: 20;
+    right: 50%;
+    margin-right: -492px; 
+    width: 254px;
+    height: 285px;
+    background: url('https://s2.music.126.net/style/web2/img/index/download.jpg?965a94c87533ccbde73106bea32344d9') no-repeat 0 0;
+}
+.recommend-download .recommend-btn{
+    display: block;
+    width: 215px;
+    height: 56px;
+    margin: 186px 0 0 19px;
+    background: url('https://s2.music.126.net/style/web2/img/index/download.jpg?965a94c87533ccbde73106bea32344d9') no-repeat;
+    background-position: 0 9999px;
+}
+.recommend-download .recommend-btn:hover{
+    background: url('https://s2.music.126.net/style/web2/img/index/download.jpg?965a94c87533ccbde73106bea32344d9') no-repeat;
+    background-position: 0px -290px;
+}
+.recommend-download>p{
+    font-size: 12px;
+    margin: 10px auto;
+    text-align: center;
+    color: #8d8d8d;
+}
+
+/* 热门 */
+.recommend-white{
+    width: 982px;
+    height: 1733px;
+    margin: 0 auto;
+    border: 1px solid #d3d3d3;
+    background: url('https://s2.music.126.net/style/web2/img/frame/wrap1.png?98e44268347ab70e741311ed29b06a47') repeat-y;
+}
+.white-left{
+    width: 689px;
+    padding: 20px 20px 40px;
+    float: left;
+    position: relative;
+}
+.recommend-white-re{
+    width: 689px;
+}
+.recommend-white-re-top{
+    height: 33px;
+    padding: 0 10px 0 34px;
+    background: url('https://s2.music.126.net/style/web2/img/index/index.png?0d0cc259ea53b5308353f86844a84cb6') no-repeat;
+    background-position: -225px -156px;
+    border-bottom: 2px solid #C10D0C;
+}
+.recommend-white-re-top>a{
+    float: left;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 28px;
+}
+.recommend-white-re-top>a:hover{
+    text-decoration: none;
+}
+.recommend-white-re-tab{
+    float: left;
+    margin: 7px 0 0 10px;
+    color: #ccc !important;
+}
+.recommend-white-re-tab>a{
+    margin: 0 10px;
+    color: #666 !important;
+    position: relative;
+}
+.recommend-white-re-tab>a::after{
+    content: "";
+    display: inline-block;
+    height: 14px;
+    border-right: 1px solid #ccc;
+    position: absolute;
+    top: 0px;
+    left: 32px;
+}
+.recommend-white-re-tab>a:last-child::after{
+    border:none;
+}
+.recommend-white-re-span{
+    float: right;
+    margin-top: 9px;
+}
+.recommend-white-re-span>i{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-left: 4px;
+    background: url('https://s2.music.126.net/style/web2/img/index/index.png?0d0cc259ea53b5308353f86844a84cb6') no-repeat;
+    background-position: 0 -240px;
+}
+.recommend-white-re-bottom{
+    margin: 20px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.recommend-white-re-bottom li{
+    width: 140px;
+    height: 204px;
+    line-height: 1.4;
+    float: left;
+    padding-bottom: 30px; 
+}
+.recommend-white-re-cover{
+    width: 140px;
+    height: 140px;
+    position: relative;
+}
+.recommend-white-cover-bottom{
+    width: 100%;
+    height: 27px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: url('https://s2.music.126.net/style/web2/img/coverall.png?948c792889785babae22b0bf522c2aeb') no-repeat;
+    background-position: 0 -537px;
+    color: #ccc;
+}
+.recommend-white-re-play{
+    width: 16px;
+    height: 17px;
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+    background: url('https://s2.music.126.net/style/web2/img/iconall.png?542539a56c2b00a445def3e0b6d63db4') no-repeat;
+    background-position: 0 0;
+}
+.recommend-white-re-music{
+    width: 14px;
+    height: 11px;
+    float: left;
+    background: url('https://s2.music.126.net/style/web2/img/iconall.png?542539a56c2b00a445def3e0b6d63db4') no-repeat;
+    background-position: 0 -24px;
+    margin: 9px 5px 9px 10px;
+}
+.recommend-white-re-nb{
+    float: left;
+    margin: 7px 0 0 0;
+    color: #ccc;
+}
+.recommend-white-re-bottom p{
+    width: 100%;
+    margin: 8px 0 3px;
+    font-size: 14px;
+}
+.recommend-white-re-bottom-i {
+    display: inline-block;
+    width: 35px;
+    height: 15px;
+    position: relative;
+    top: -1px;
+    margin-right: 3px;
+    vertical-align: middle;
+    background: url('https://s2.music.126.net/style/web2/img/icon.png?ca52923a85337c208ca850f4086d6cd2') no-repeat;
+    background-position: -31px -658px;
+}
+/* 个性化推荐 */
+.recommend-white-re-cover1{
+    display: block;
+    height: 33px;
+    line-height: 33px;
+    color: #fed9d9;
+    font-size: 14px;
+    text-shadow: 0 -1px #962626;
+    text-align: center;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    background: #c63636;
+}
+.recommend-white-re-cover2{
+    display: block;
+    line-height: 102px;
+    text-align: center;
+    font-size: 94px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #202020;
+}
+.recommend-white-re-cover3{
+    width: 142px;
+    height: 107px;
+    position: absolute;
+    top: 33px;
+    left: 0;
+    background: url('https://s2.music.126.net/style/web2/img/date.png?f4b3d9a73417820af327f25350a31d31') no-repeat ;
+    background-position: 0 -150px;
+}
+.recommend-white-re-bottom-p{
+    color: #999;
+    margin-top: 3px;
+    position: relative;
+    z-index: 2;
+    font-size: 12px !important;
+}
+
+/* 新碟上架 */
+.recommend-white-die{
+    margin: 0 0 35px;
+}
+.recommend-white-disk{
+    position: relative;
+    zoom: 1;
+    height: 186px;
+    margin: 20px 0 37px;
+    border: 1px solid #d3d3d3;
+}
+.recommend-white-disk-inner{
+    height: 184px;
+    padding-left: 16px;
+    background: #f5f5f5;
+    border: 1px solid #fff;
+    position: relative;
+}
+.swiper-container2 {
+    float: left;
+    width: 645px;
+    height: 150px;
+    overflow: hidden;
+    transition: none 0s ease 0s;
+    margin: 28px 0 0 0;
+}
+.swiper-container2 .swiper-slide {
+    display: inline-block;
+    width: 118px !important;
+    height: 150px;
+    margin-left: 11px;
+    background-position: -260px 100px;
+}
+.recommend-white-disk-img{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 7px;
+    position: relative;
+}
+.recommend-white-disk-msk{
+    display: block;
+    width: 118px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('https://s2.music.126.net/style/web2/img/coverall.png?948c792889785babae22b0bf522c2aeb') no-repeat;
+    background-position: 0 -570px;
+}
+.recommend-white-disk-play{
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+    background: url('https://s2.music.126.net/style/web2/img/iconall.png?542539a56c2b00a445def3e0b6d63db4') no-repeat;
+    background-position: 0 -85px;
+    display: none;
+}
+.recommend-white-disk-img:hover .recommend-white-disk-play{
+    display: block;
+}
+.swiper-button-black::after{
+    font-size:14px; 
+    font-weight: 800;
+    color: #666666 !important;
+}
+.swiper-button-black::after{
+    color: #333333;
+}
+.swiper-container2 .swiper-button-next{
+    right: 0px !important;
+}
+.swiper-container2 .swiper-button-prev{
+    left: 0px !important;
+}
+
+/* 榜单 */
+.recommend-white-flag{
+    height: 472px;
+    margin-top: 20px;
+    padding-left: 1px;
+    display: inline-flex;
+    justify-content: center;
+    background: url('https://s2.music.126.net/style/web2/img/index/index_bill.png?3912b4e90139b65f285946fd6546b137') no-repeat;
+}
+.recommend-white-blk{
+    float: left;
+    width: 230px;
+    box-sizing: border-box;
+}
+.recommend-white-blk-top{
+    height: 100px;
+    padding: 20px 0 0 19px;
+}
+.recommend-white-blk-top1{
+    display: block;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    float: left;
+}
+.recommend-white-blk-top1>img{
+    width: 100%;
+    height: 100%;
+}
+.recommend-white-blk-top11{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('https://s2.music.126.net/style/web2/img/coverall.png?948c792889785babae22b0bf522c2aeb') no-repeat;
+    background-position: -145px -57px;
+}
+.recommend-white-blk-top2{
+    float: left;
+    width: 116px;
+    margin: 6px 0 0 10px;
+    font-size: 12px;
+    color: #333;
+}
+.recommend-white-blk-bottom{
+    width: 230px；
+}
+.recommend-white-blk-bottom ul{
+    height: 319px;
+    margin-left: 50px;
+    line-height: 32px;
+}
+.recommend-white-blk-bottom ul li {
+    height: 32px;
+}
+.recommend-white-blk-bottom ul li span{
+    float: left;
+    position: relative;
+    width: 35px;
+    height: 32px;
+    margin-left: -35px;
+    text-align: center;
+    color: #666;
+    font-size: 16px;
+}
+.recommend-white-blk-bottom .active{
+    color: #c10d0c;
+}
+.recommend-white-blk-bottom .more{
+    clear: both;
+    height: 32px;
+    margin-right: 32px;
+    text-align: right;
+    line-height: 32px;
+}
+/* 侧边 */
+.white-right{
+    position: relative;
+    float: right;
+    width: 250px;
+    zoom: 1;
+}
+.white-right-myinfo{
+    height: 165px;
+    padding-top: 20px;
+    background: url('https://s2.music.126.net/style/web2/img/index/index.png?0d0cc259ea53b5308353f86844a84cb6') no-repeat;
+    background-position: 0 -270px;
+}
+.white-right-myinfo .right{
+    float: left;
+    width: 115px;
+    margin-left: 18px;
+    padding-top: 3px;
+}
+.white-right-myinfo>div{
+    width: 250px;
+    height: 90px;
+}
+.white-right-myinfo .lin{
+    float: left;
+    width: 80px;
+    height: 80px;
+    margin-left: 20px;
+    padding: 2px;
+    background: #fff;
+    border: 1px solid #dadada;
+}
+.white-right-myinfo .lin img{
+        display: block;
+    width: 80px;
+    height: 80px;
+}
+.white-right-myinfo .level{
+    display: inline-block;
+    margin-top: 3px;
+    height: 17px;
+    overflow: hidden;
+    padding-left: 25px;
+    line-height: 18px;
+    color: #999 !important;
+    font-weight: bold;
+    font-style: italic;
+    background: url('https://s2.music.126.net/style/web2/img/icon2.png?f36515dd95006e29f42130cbe3f201dc') no-repeat;
+    background-position: -130px -64px;
+}
+.white-right-myinfo p{
+    width: 100%;
+}
+.white-right-myinfo .level i{
+    width: 8px;
+    height: 17px;
+    background: url('https://s2.music.126.net/style/web2/img/icon2.png?f36515dd95006e29f42130cbe3f201dc') no-repeat;
+    background-position: -192px -64px;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+    color: #999999;
+}
+.white-right-myinfo .button{
+    margin-top: 12px;
+    width: 115px;
+    height: 31px;
+    color: #bebebe;
+    cursor: default;
+    text-align: center;
+    line-height: 31px;
+    background: rgb(45, 111, 208);
+}
+.white-right-myinfo .button:hover{
+    background: rgb(16, 85, 189);
+}
+.white-right-myinfo .button i{
+    color: #fff;
+    font-style: normal;
+}
+.white-right-myinfo ul{
+    margin: 22px 0 0 20px;
+    width: 230px;
+    height: 40px;
+}
+.white-right-myinfo ul li{
+    float: left;
+    height: 40px;
+    padding: 0 18px;
+    border-right: 1px solid #e4e4e4;
+}
+.white-right-myinfo ul li:last-child{
+    border-right: none;
+}
+.white-right-myinfo ul li a{
+    display: block;
+    color: #666;
+}
+.white-right-myinfo ul li strong{
+        display: block;
+    font-size: 20px;
+    font-weight: normal;
+}
+.white-right-myinfo ul li span{
+    margin-left: 2px;
+}
+/* 入驻歌手 */
+.white-right-singer{
+    width:250px;
+    height:455px;
+    margin-top: 15px;
+}
+.white-right-singer h3{
+    position: relative;
+    height: 23px;
+    color: rgb(51, 51, 51);
+    margin: 0px 20px;
+    border-bottom: 1px solid rgb(204, 204, 204);
+}
+.white-right-singer .more{
+    float: right;
+    font-weight: normal;
+    color: rgb(102, 102, 102);
+}
+.white-right-singer ul{
+    margin: 6px 0px 14px 20px;
+}
+.white-right-singer ul li{
+    margin-top: 14px;
+    float: left;
+    width: 210px;
+    height: 62px;
+    background: rgb(250, 250, 250);
+}
+.white-right-singer ul li>a{
+    float: left;
+    width: 210px;
+    height: 62px;
+    background: rgb(250, 250, 250);
+}
+.white-right-singer .head{
+    display: inline-block;
+    width: 62px;
+    height: 62px;
+}
+.white-right-singer .head img{
+    float: left;
+    width: 62px;
+    height: 62px;
+}
+.white-right-singer .ifo{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 133px;
+    height: 60px;
+    padding-left: 14px;
+    border: 1px solid rgb(233, 233, 233);
+    position: absolute;
+}
+.white-right-singer h4{
+    margin-top: 8px;
+    width: 90%;
+}
+.white-right-singer p{
+    margin-top: 8px;
+    width: 90%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow-wrap: normal;
+    overflow: hidden;
+}
+/* 热门主播 */
+.white-right-singers{
+    margin-top: 30px;
+}
+.white-right-singers ul{
+    margin: 20px 0 0 20px;
+}
+.white-right-singers ul li{
+    float: left;
+    width: 210px;
+    height: 50px;
+}
+.white-right-singers ul li>a{
+    float: left;
+    width: 40px;
+    margin-right: 10px;
+}
+.white-right-singers ul li>a img{
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 0 1px #333333 inset;
+}
+.white-right-singers .ifo{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 162px;
+    height: 42px;
+    padding-left: 14px;
+    position: absolute;
+    color: #666666;
+    line-height: 21px;
+    border: none;
+}
+.white-right-singers h4{
+    margin-top: 0px;
+    width: 100%;
+}
+.white-right-singers p{
+    width: 100%;
+    margin-top: 0px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow-wrap: normal;
+    overflow: hidden;
+}
+.white-right-singers .u-icn-1{
+    width: 11px;
+    height: 13px;
+    font-size: 100%;
+    font-style: normal;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+    background: url('https://s2.music.126.net/style/web2/img/icon.png?ca52923a85337c208ca850f4086d6cd2') no-repeat;
+    background-position: 0 1px;
+}
