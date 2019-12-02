@@ -290,3 +290,6 @@
     background: url(../img/productImg/totop.png) no-repeat;
     background-position: -70px -0px;
 }
+.comment-back{
+  display:none;
+}
