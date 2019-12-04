@@ -1,3 +1,15 @@
+i{
+    font-style: normal;
+    color: #333333;
+}
+a {
+    text-decoration: none;
+    color: #333;
+}
+a:hover{
+    text-decoration: underline;
+    color: #333;
+}
 .commentlist-white{
     width: 982px;
     height: 1733px;
@@ -37,6 +49,7 @@
     top: -4px;
     left: -4px;
 }
+/* 图片右侧，标签上 */
 .commentlist-head-imgr{
     width: 410px;
     height: 247px;
@@ -71,13 +84,584 @@
     position: relative;
     font-size: 20px;
 }
-
-
-
-
-
-
-
+.commentlist-head-imgr-yi{
+    height:35pxp;
+    width:410px;
+    margin:0 0 20px;
+    line-height:35px;
+}
+.commentlist-head-imgr-yi>a{
+        float: left;
+    width: 35px;
+    height: 35px;
+        margin-right: 10px;
+}
+.commentlist-head-imgr-yi>a>img{
+    width: 100%;
+    height: 100%;
+}
+.commentlist-head-imgr-yi>.name{
+    float: left;
+}
+.commentlist-head-imgr-yi>.name>a{
+    color: #0c73c2;
+}
+.commentlist-head-imgr-yi>sub{
+    width: 11px;
+    height: 13px;
+    background: url(https://s2.music.126.net/style/web2/img/icon.png?a293dc35a8c900a5cc4e5c28d3eae9a7) no-repeat;
+    background-position: 0 1px;
+        float: left;
+    margin: 9px 0 0 3px;
+}
+.commentlist-head-imgr-yi .time{
+    margin-left: 15px;
+    color: #999;
+}
+.commentlist-head-imgr-btn{
+    height: 31px;
+    margin-bottom: 25px;
+    margin-right: -10px;
+    color: black;
+    display: block;
+}
+.commentlist-head-imgr-btn .play{
+    float: left;
+    display: inline-block;
+    width: 66px;
+    height: 31PX;
+    color: #fff;
+    background: url(https://s2.music.126.net/style/web2/img/button2.png?9971191d2985dca705293488ca8b3494) no-repeat;
+    background-position: right -428px;
+    padding: 0 5px 0 0;
+    white-space: nowrap;
+    line-height: 31px;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+}
+.commentlist-head-imgr-btn .play i{
+    display: block;
+    width: 61px;
+    height: 34PX;
+    padding: 0 7px 0 8px;
+    color: #fff;
+    font-style: normal;
+    background: url(https://s2.music.126.net/style/web2/img/button2.png?9971191d2985dca705293488ca8b3494) no-repeat;
+    background-position: 0 -387px;
+}
+.commentlist-head-imgr-btn .play em{
+    float: left;
+    width: 20px;
+    height: 18px;
+    margin: 6px 2px 2px 0;
+    background: url(https://s2.music.126.net/style/web2/img/button2.png?9971191d2985dca705293488ca8b3494) no-repeat;
+    background-position: 0 -1622px;
+    overflow: hidden;
+}
+.commentlist-head-imgr-btn .add{
+    float: left;
+    display: inline-block;
+    width: 31px;
+    height: 31px;
+    margin-left: -3px;
+    padding-right: 0;
+    background: url(https://s2.music.126.net/style/web2/img/button2.png?9971191d2985dca705293488ca8b3494) no-repeat;
+    background-position: 0 -1588px;
+    margin-right: 5px;
+}
+.commentlist-head-imgr-btn .fav{
+    margin-right: 6px;
+    padding: 0 5px 0 0;
+    white-space: nowrap;
+    float: left;
+    height: 31px;
+    line-height: 30px;
+    min-width: 23px;
+    cursor: pointer;
+    background: url(https://s2.music.126.net/style/web2/img/button2.png?9971191d2985dca705293488ca8b3494) no-repeat;
+    background-position: right -1106px;
+}
+.commentlist-head-imgr-btn .fav i{
+    float: left;
+    height: 31px;
+    line-height: 30px;
+    min-width: 23px;
+    cursor: pointer;
+    background: url(https://s2.music.126.net/style/web2/img/button2.png?9971191d2985dca705293488ca8b3494) no-repeat;
+    background-position: 0 -977px;
+    padding: 0 2px 0 28px;
+}
+.commentlist-head-imgr-btn .share i{
+    background: url(https://s2.music.126.net/style/web2/img/button2.png?9971191d2985dca705293488ca8b3494) no-repeat;
+    background-position: 0 -1225px;
+}
+.commentlist-head-imgr-btn .down i{
+    background: url(https://s2.music.126.net/style/web2/img/button2.png?9971191d2985dca705293488ca8b3494) no-repeat;
+    background-position: 0 -2761px;
+}
+.commentlist-head-imgr-btn .say i{
+    background: url(https://s2.music.126.net/style/web2/img/button2.png?9971191d2985dca705293488ca8b3494) no-repeat;
+    background-position: 0 -1465px;
+}
+/* 图片右侧，标签 */
+.commentlist-head-imgr-tags{
+    display: block;
+    margin: 25px 0 5px;
+    line-height: 22px;
+}
+.commentlist-head-imgr-tags .tag{
+    display: inline-block;
+    height: 22px;
+    padding: 0 10px;
+    line-height: 22px;
+    margin: 0px 10px 3px 0;
+    text-shadow: 0 1px #fdfdfd;
+    background: rgba(230, 230, 230, 0.8);
+    border: 1px solid #ccc;
+    border-radius:10px;
+    color: #777;
+    text-decoration: none;
+    text-align: center
+}
+.commentlist-head-imgr-tags .tag:hover{
+    background: white;
+}
+.commentlist-head-imgr .more{
+    margin-top: 4px;
+    line-height: 18px;
+    color: #666;
+}
+.commentlist-head-imgr .more br{
+    display: inline-block;
+    color: #666;
+}
+/* 歌曲列表 */
+.commentlist-songlist{
+    margin-top: 27px;
+    width: 640px;
+}
+.commentlist-songlist .title{
+    height: 33px;
+    border-bottom: 2px solid #c20c0c;
+}
+.commentlist-songlist .title h3{
+    width: 80px;
+    height: 26px;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: normal;
+}
+.commentlist-songlist .title span{
+    margin: 9px 0 0 10px;
+}
+.commentlist-songlist .title .more{
+    width: 94px;
+    height: 16px;
+    display: inline-block;
+    margin-top: 5px;
+    float: right;
+}
+.commentlist-songlist .title .more strong{
+        color: #c20c0c;
+}
+.commentlist-songlist .title .out{
+    margin-right: 20px;
+    margin-top: 5px;
+    float: right;
+}
+.commentlist-songlist .title .out i{
+    width: 16px;
+    height: 16px;
+    float: left;
+    background: url(https://s2.music.126.net/style/web2/img/icon.png?a293dc35a8c900a5cc4e5c28d3eae9a7) no-repeat;
+    background-position: -34px -863px;
+    display: inline-block;
+    overflow: hidden;
+}
+.commentlist-songlist .title .out a{
+    color: #4996d1;
+    text-decoration: underline;
+}
+/* table */
+table{
+    border-spacing: 0;
+}
+.commentlist-songlist .cache-table{
+    width: 100%;
+    border: 1px solid #d9d9d9;
+}
+.commentlist-songlist .cache-table thead{
+    width: 639px;
+    height: 39px;
+}
+.commentlist-songlist .cache-table th{
+    vertical-align: top;
+    text-align: left;
+    font-weight: normal;
+    color: #666;
+    height: 18px;
+    line-height: 18px;
+    padding: 8px 10px;
+    background: url(https://s2.music.126.net/style/web2/img/table.png?ef64f32934176fa84dc33f845daee9c3) no-repeat;
+    background-position: 0 -56px;
+}
+.commentlist-songlist .cache-table .first{
+    width: 54px;
+}
+.commentlist-songlist .cache-table .second{
+    width: 217px;
+}
+.commentlist-songlist .cache-table .third{
+    width:91px;
+}
+.commentlist-songlist .cache-table .forth{
+    width: 69px;
+}
+.commentlist-songlist .cache-table .fifth{
+    width: 107px;
+}
+.commentlist-songlist .even td{
+    width: 54px;
+    height: 18px;
+    padding: 6px 10px;
+    line-height: 18px;
+    text-align: left;
+    background-color: #f7f7f7;
+    position: relative;
+}
+.commentlist-songlist .even span{
+    display: inline-block;
+    float: left;
+}
+.commentlist-songlist .even .play{
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    float: right;
+    cursor: pointer;
+    background: url(https://s2.music.126.net/style/web2/img/table.png?ef64f32934176fa84dc33f845daee9c3) no-repeat;
+    background-position: -20px -128px;
+}
+.commentlist-songlist .even .num{
+    width: 25px;
+    margin-left: 5px;
+    color: #999;
+}
+.commentlist-songlist .even .play1{
+    display: inline-block;
+    width: 23px;
+    height: 17px;
+    margin: 1px 0 0 0;
+    background: url(https://s2.music.126.net/style/web2/img/table.png?ef64f32934176fa84dc33f845daee9c3) no-repeat;
+    background-position: 0 -151px;
+}
+.commentlist-songlist-even-show{
+    display:none;
+}
+.commentlist-songlist .even:hover .commentlist-songlist-even-show{
+    display:block;
+}
+.commentlist-songlist .even:hover .commentlist-songlist-even-span{
+    display:none;
+    
+}
+.commentlist-songlist .even .add{
+    width: 13px;
+    height: 13px;
+    background: url(https://s2.music.126.net/style/web2/img/icon.png?a293dc35a8c900a5cc4e5c28d3eae9a7) no-repeat;
+    background-position: 0 -700px;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+    float: left;
+    margin-top: 2px;
+}
+.commentlist-songlist .even .fav{
+    float: left;
+    width: 18px;
+    height: 16px;
+    margin: 2px 0 0 4px;
+    overflow: hidden;
+    text-indent: -999px;
+    cursor: pointer;
+    background: url(https://s2.music.126.net/style/web2/img/table.png?ef64f32934176fa84dc33f845daee9c3) no-repeat;
+    background-position: 0 -174px;
+}
+.commentlist-songlist .even .share{
+    background: url(https://s2.music.126.net/style/web2/img/table.png?ef64f32934176fa84dc33f845daee9c3) no-repeat;
+    background-position: 0 -195px;
+}
+.commentlist-songlist .even .down{
+    background: url(https://s2.music.126.net/style/web2/img/table.png?ef64f32934176fa84dc33f845daee9c3) no-repeat;
+    background-position: -81px -174px;
+}
+/* 评论 */
+.commentlist-saylist{
+    margin-top: 27px;
+    width: 640px;
+}
+.commentlist-saylist-title{
+    height: 33px;
+    border-bottom: 2px solid #c20c0c;
+}
+.commentlist-saylist-title h3{
+    width: 80px;
+    height: 26px;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: normal;
+}
+.commentlist-saylist-title>span{
+    margin: 9px 0 0 10px;
+}
+/* 评论头像 */
+.commentlist-saylist-ping{
+    margin-top: 20px; 
+}
+.commentlist-saylist-ping .are{
+    margin-bottom: 20px;
+}
+.commentlist-saylist-head{
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-right: -100px;
+}
+.commentlist-saylist-head>img{
+    width: 50px;
+    height: 50px;
+}
+.commentlist-saylist-aret{
+    width: 578px;
+    height: 98px;
+    margin-left: 62px;
+    position: relative;
+    zoom: 1;
+}
+.commentlist-saylist-aret1{
+    width: 564px;
+    height: 63px;
+    padding-right: 14px;
+}
+.commentlist-saylist-aret1 textarea{
+    width: 100%;
+    height: 50px;
+    display: block;
+    margin-right: -20px;
+    padding: 5px 6px 6px;
+    border: 1px solid #cdcdcd;
+    border-radius: 2px;
+    line-height: 19px;
+    resize: none;
+}
+.commentlist-saylist-btns{
+    width: 578px;
+    height: 25px;
+    padding-top: 10px;
+}
+.commentlist-saylist-btns i{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin: 0px 10px 0 0;
+    cursor: pointer;
+}
+.commentlist-saylist-btns i:nth-child(1){
+    background: url(https://s2.music.126.net/style/web2/img/icon.png?a293dc35a8c900a5cc4e5c28d3eae9a7) no-repeat;
+    background-position: -40px -490px;
+}
+.commentlist-saylist-btns i:nth-child(2){
+    background: url(https://s2.music.126.net/style/web2/img/icon.png?a293dc35a8c900a5cc4e5c28d3eae9a7) no-repeat;
+    background-position: -60px -490px;
+}
+.commentlist-saylist-btns a{
+    width: 46px;
+    height: 25px;
+    display: inline-block;
+    background: url(https://s2.music.126.net/style/web2/img/button.png?ef7f4710cc8ab2c121e0b342da8540d3) no-repeat;
+    background-position: -84px -64px;
+    color: #fff;
+    text-align: center;
+    line-height: 25px;
+    float: right;
+}
+.commentlist-saylist-btns a:hover{
+    background: url(https://s2.music.126.net/style/web2/img/button.png?ef7f4710cc8ab2c121e0b342da8540d3) no-repeat;
+    background-position: -84px -94px;
+    color: #fff;
+    text-decoration: none;
+}
+.commentlist-saylist-btns span{
+    float: right;
+    margin-right: 10px;
+    line-height: 25px;
+    color: #999;
+}
+.commentlist-saylist-corr{
+    width: 13px;
+    height: 14px;
+    overflow: hidden;
+    position: absolute;
+    top: 11px;
+    left: -6px;
+}
+.commentlist-saylist-corr span:nth-child(1){
+    color: #cdcdcd;
+}
+.commentlist-saylist-corr span:nth-child(2){
+    display: block;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 1px;
+}
+.commentlist-saylist-ping .jcpl{
+    width: 100%;
+}
+.commentlist-saylist-ping .jcpl h3{
+    position: relative;
+    top: 1px;
+    height: 20px;
+    border-bottom: 1px solid #cfcfcf;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.commentlist-saylist-ping .jcpl .item{
+    padding: 15px 0;
+    border-top: 1px dotted #ccc;
+}   
+.commentlist-saylist-ping .jcpl .item-head{
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-right: -100px;
+}
+.commentlist-saylist-ping .jcpl .item-head img{
+    width: 50px;
+    height: 50px;
+}
+.commentlist-saylist-ping .jcpl .item-wrap{
+    width: 580px;
+    height: 51px;
+    margin-left: 60px;
+}
+.commentlist-saylist-ping .jcpl .item-wrap1{
+    width: 100%;
+    height: 20px;
+    overflow: hidden;
+    line-height: 20px;
+}
+.commentlist-saylist-ping .jcpl .item-wrap1>a{
+    margin-right: 5px;
+    color: #0c73c2;
+}
+.commentlist-saylist-ping .jcpl .item-wrap2{
+    width: 100%;
+    height: 16px;
+    margin-top: 15px;
+    text-align: right;
+}
+.commentlist-saylist-ping .jcpl .item-wrap2 .time{
+    float: left;
+    margin: 0 !important;
+}
+.commentlist-saylist-ping .jcpl .item-wrap2>a>i{
+    display: inline-block;
+    overflow: hidden;
+    width: 15px;
+    height: 14px;
+    background: url(https://s2.music.126.net/style/web2/img/icon2.png?f9dde3dd5ffcad48d0ddcffae5460e2b) no-repeat;
+    background-position: -150px 0;
+    margin-top: -4px;
+    margin-right: 5px;
+    vertical-align: -2px;
+}
+.commentlist-saylist-ping .jcpl .item-wrap2>span{
+    margin: 0 8px;
+    color: #ccc;
+}
+.white-right-like{
+    padding: 20px 40px 40px 30px;
+}
+.white-right-like h3{
+    position: relative;
+    height: 23px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    color: #333;
+}
+.white-right-like h3 span{
+    float: left;
+}
+.white-right-like ul {
+    margin-left: -13px;
+    padding-bottom: 25px;
+}
+.white-right-like ul li{
+    display: inline;
+    padding: 0 0 13px 13px;
+}
+.white-right-like ul li,.white-right-like ul li img{
+    float: left;
+    width: 40px;
+    height: 40px;
+}
+.white-right-hot{
+    padding: 20px 40px 40px 30px;
+}
+.white-right-hot h3{
+    position: relative;
+    height: 23px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    color: #333;
+}
+.white-right-hot h3 span{
+    float: left;
+}
+.white-right-hot ul li{
+    width: 200px;
+    height: 50px;
+    margin-bottom: 15px;
+    line-height: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+.white-right-hot ul .list{
+    line-height: 24px;
+}
+.white-right-hot ul div{
+    float: left;
+    display: inline-block;
+}
+.white-right-hot .listp{
+    width: 140px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+}
+.white-right-hot .listp>a{
+    color: #000;
+    font-size: 14px;
+}
+.white-right-hot .listby{
+    max-width: 106px;
+    margin: 0 2px 0 4px;
+    color: #666;
+}
+.white-right-hot sub{
+    width: 12px;
+    height: 13px;
+    background: url(https://s2.music.126.net/style/web2/img/icon.png?a293dc35a8c900a5cc4e5c28d3eae9a7) no-repeat;
+    background-position: -65px -840px;
+    margin-top: -1px;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+}
 
 
 
