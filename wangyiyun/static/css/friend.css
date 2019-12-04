@@ -1,0 +1,440 @@
+.friend{
+    width: 100%;
+    height: 100%;
+    background: rgb(245, 245, 245);
+}
+.friend1{
+    width: 980px;
+    overflow: hidden;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid #d3d3d3;
+    border-width: 0 1px;
+}
+.lefts{
+    width: 680px;
+    
+    border-right: 1px solid #d3d3d3;
+    float: left;
+    box-sizing: border-box;
+    padding: 20px 30px;
+
+}
+.rights{
+    float: right;
+    width: 297px;
+    padding: 0 1px;
+    height: 700px;
+}
+
+.wyz1{
+    width: 100%;
+    height: 40px;
+    border-bottom: 2px solid #c20c0c;
+}
+.wyz1 h3{
+    float: left;
+    font-family: "Microsoft Yahei", Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    color: #333;
+}
+.wyz1 span:nth-child(2){
+    margin: 6px 0 0 10px;
+    overflow: hidden;
+    width: 84px;
+    height: 24px;
+   
+    float: right;
+    background: url(../img/frd_dyn_sprite.png);
+    background-position: -100px -452px;
+}
+.wyz1 span:nth-child(3){
+    margin: 6px 0 0 10px;
+    overflow: hidden;
+    width: 71px;
+    height: 24px;
+    background: url(../img/frd_dyn_sprite.png);
+    float: right;
+    background-position: 0 -452px;
+}
+.wyz2{
+    width: 100%;
+   
+ 
+}
+.wyz3{
+    padding: 20px 0;
+    border-bottom: 1px solid;
+    border-color: #e8e8e9;
+    font-size: 12px;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+   
+    position: relative;
+}
+.wyz4{
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 54px;
+    height: 45px;
+}
+.wyz5{
+    position: relative;
+    zoom: 1;
+    margin-left: 55px;
+    padding-top: 4px;
+}
+.wyz6{
+    position: relative;
+    font-size: 14px;
+}
+.gq{
+position: absolute;
+width: 54px;
+height: 24px;
+top: -10px;
+    right: 22px;
+background: #fff;
+    border: 1px solid #ccc;
+    color: #333;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: left;
+}
+
+.gq2{
+    width: 19px;
+    height: 19px;
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    background: url(../img/frd_dyn_sprite.png);
+    background-position: -15px 0;
+    top: -7px;
+    right: -3px;
+    
+
+}
+.wyz6 a{
+    float: left;
+    color: blue;
+}
+.gq1{
+    float: left;
+    margin: 5px 4px 0 6px;
+    width: 12px;
+    height: 12px;
+    
+    background: url(../img/frd_dyn_sprite.png);
+    background-position: -65px 0;
+}
+.wyz6 i{
+    display: inline-block;
+   margin-left: 3px;
+   margin-top: 3px;
+    width: 12px;
+    height: 13px;
+    float: left;
+    background: url(../img/icon2.png);
+    background-position: -110px -190px;
+}
+.wyz6 span{
+    margin-left: 5px;
+    font-size: 14px;
+    color: #666;
+}
+.wyz7{
+    color: #999;
+    margin-top: 7px;
+}
+.wyz8{
+    margin-top: 10px;
+    line-height: 24px;
+    font-size: 14px;
+    word-break: break-word;
+}
+.wyz9{
+    margin: 4px 0 5px;
+    overflow: hidden;
+}
+.wyz10{
+   float: left;
+   margin-left: 4px;
+    margin-top: 4px;
+ 
+}
+
+.wyz11{
+    margin: 18px 0 -2px;
+    text-align: right;
+    line-height: normal;
+}
+.wyz12{
+    display: inline-block;
+    margin: -1px 3px 0 0;
+    width: 14px;
+    height: 14px;
+    background:url(../img/frd_dyn_sprite.png);
+    background-position: 0 -20px;
+
+}
+.dj{
+    margin: 0 10px 0 12px;
+    color: #c7c7c7;
+}
+.wyz11 a{
+    color: rgb(12, 115, 194);
+}
+.yinyue{
+    width: 100%;
+    height: 60px;
+    background: rgb(245, 245, 245);
+    margin: 4px 0 5px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.yy1{
+    width: 50px;
+    height: 40px;
+    float: left;
+    background: url(../img/frd_dyn_sprite.png);
+    background-position: right -70px;
+
+}
+.lnk{
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+.yy2{
+    
+    height: 50px;
+    float: left;
+    margin-left: 10px;
+}
+.yy2 p:nth-child(1){
+    font-weight: normal;
+    margin-top: -2px;
+    font-size: 14px;
+    color: #333;
+}
+.yy3{
+    position: relative;
+    top: -1px;
+    zoom: 1;
+    margin-right: 6px;
+    color: #e03f40;
+    padding: 0 2px 0 3px;
+    background: url(../img/frd_dyn_sprite.png);
+    background-position: -110px 0;
+    line-height: 16px;
+    height: 16px;
+    display: inline-block;
+    font-size: 12px;
+}
+.yy4{
+    position: absolute;
+    top: 0;
+    right: 0px;
+    display: block;
+    width: 3px;
+    background: url(../img/frd_dyn_sprite.png);
+  
+    background-position: right 0;
+    height: 16px;
+    font-size: 12px;
+}
+.yy2 a{
+    color: #666;
+}
+.yy2 p:nth-child(2){
+    margin-top: 5px;
+}
+.rights1{
+    width: 296px;
+    height: 193px;
+    background: url(../img/frduser.png);
+    position: relative;
+}
+.rights2{
+    position: absolute;
+    top: 38px;
+    left: 30px;
+    width: 70px;
+    height: 70px;
+
+}
+.rights2 img{
+    width: 100%;
+    height: 100%;
+}
+.rights3{
+    top: 40px;
+    font-size: 14px;
+    width: 180px;
+    left: 112px;
+    position: absolute;
+   font-weight: bold;
+}
+.rights4{
+    top: 67px;
+    height: 38px;
+    overflow: hidden;
+    line-height: 19px;
+    color: #888;
+    position: absolute;
+    left: 112px;
+    width: 160px;
+   
+}
+.rights5{
+    position: absolute;
+    top: 134px;
+    left: 13px;
+    overflow: hidden;
+}
+.rights6{
+    float: left;
+    margin: 0 2px 0 -2px;
+    border-left: 1px solid #c2c2c2;
+}
+.rights7{
+    padding: 0 20px;
+    color: #666;
+}
+.rights7 p{
+    padding: 0 0 9px;
+    font-size: 20px;
+    line-height: 20px;
+    font-family: Arial;
+}
+.rights7 i{
+    padding: 0 0 0 2px;
+    color: #666;
+    font-style: normal;
+}
+.ws{
+    padding: 20px 30px;
+    font-size: 12px;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ws1{
+    margin: 0 0 20px;
+}
+.ws2{
+    margin: 5px 0;
+    padding: 0 0 5px;
+    border-bottom: 1px solid #dcdcdc;
+}
+.ws2 a{
+    float: right;
+    color: #666;
+    margin-top: -16px;
+}
+.ws3{
+    width: 100%;
+    height: 195px;   
+}
+.ws3 li{
+    height: 45px;
+    padding: 10px 0;
+    position: relative;
+ 
+}
+.ws3 li img{
+    width: 45px;
+    height: 45px;
+    float: left;
+}
+.ws4{
+    margin: 0 65px 0 40px;
+    line-height: 14px;
+    margin-left: 55px; 
+}
+
+.ws5{
+    width: 52px;
+    height: 22px;
+    background: url(../img/button.png);
+    background-position: 0 -96px;
+    text-align: center;
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    text-align:center;
+    line-height: 22px;
+}
+.ws6{
+    display: inline-block;
+   position: absolute;
+
+   
+    width: 12px;
+    height: 13px;
+    background: url(../img/icon2.png);
+    background-position: -110px -190px;
+}
+.ws4 p:nth-child(2){
+    margin-top: 10px;
+}
+
+.ws7{
+width: 100%;
+height: 57px;
+margin-bottom: 20px;
+position: relative;
+
+}
+.ws8{
+    margin: 10px 0 0 0;
+    color: #333;
+    padding: 0 5px 0 0;
+    height: 31px;
+    line-height: 31px;
+    overflow: hidden;
+    vertical-align: top;
+    text-align: center;
+    cursor: pointer;
+       
+}
+.ws9{
+    width: 195px;
+    text-align: left;
+    color: #333;
+    background: url(../img/button2.png);
+    background-position: 0 -59px;
+    padding: 0 15px 0 20px;
+    pointer-events: none;
+    display: inline-block;
+    height: 31px;
+    line-height: 31px;
+    overflow: hidden;
+    vertical-align: top;
+    float: left;
+    font-style: normal;
+    margin-top: -31px;
+}
+.ws10{
+    width: 10px;
+    height: 31px;
+    border-radius: 0 5px 5px 0; background: url(../img/button2.png);
+    background-position: -241px -59px;
+    position: absolute;
+    right: 0px;
+    top: 26px;
+}
+.ws11{
+    float: left;
+    margin: 5px 10px 0 47px;
+    background-position: -172px 0;
+    width: 20px;
+    height: 20px;
+  
+    background:url(../img/logo.png);
+}

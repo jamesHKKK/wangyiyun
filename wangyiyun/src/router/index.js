@@ -56,6 +56,15 @@ export default new Router({
         },{
           path:'creator',
           component:()=>import('../page/creator.vue'),
+        },{
+          path:'signed',
+          component:()=>import('../page/signed.vue'),
+        },{
+          path:'cat',
+          component:()=>import('../page/cat.vue'),
+        },{
+          path:'playlist',
+          component:()=>import('../page/commentlist.vue'),
         }
       ]
     } ,{
