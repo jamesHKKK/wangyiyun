@@ -1,4 +1,6 @@
-{
+[
+  { 
+  "title":"精彩评论",
   "todisww":[
         { "id":1,
           "img":"https://p2.music.126.net/LpD4YFxwVp1dLZbm2lFgog==/109951164215904183.jpg?param=50y50",
@@ -488,191 +490,96 @@
           "name":"X-Taylover-Forever-I",
           "text":"：lover的remix都可以登榜",
           "num":"22"
-        },
-        {
-          "id":71,
-          "img":"https://p2.music.126.net/nDVzXmGrRmk1lEnDfkE86Q==/109951163525736693.jpg?param=50y50",
-          "name":"深海未及170624",
-          "text":"：汪苏泷《星星坠落时》，好悲伤的一首歌。[多多大哭]",
-          "num":"1"
-        },
-        {
-          "id":72,
-          "img":"https://p2.music.126.net/Kpz-0ziJN4RQ80BylKeO6w==/109951163620460982.jpg?param=50y50",
-          "name":"萌托萌猴萌德萌猹",
-          "text":"：Lover",
-          "num":"13"
-        },
-        {
-          "id":73,
-          "img":"https://p2.music.126.net/ybOLwQdyIR3P4o-UPT3_Nw==/109951163913650332.jpg?param=50y50",
-          "name":"今年勇_s",
-          "text":"：水军真多",
-          "num":"22"
-        },
-        {
-          "id":74,
-          "img":"https://p2.music.126.net/DIBBG2BjY4zQ0dWSZg0gYQ==/109951164356028610.jpg?param=50y50",
-          "name":"作为真爱粉改名字我是认真的",
-          "text":"：听听第44首",
-          "num":"12"
-        },
-        {
-          "id":75,
-          "img":"https://p2.music.126.net/WpuHoJ-7_5dGhN-cwxU8Kg==/109951163908221562.jpg?param=50y50",
-          "name":"风神张月",
-          "text":"：像秋天枫叶等落地，你是我最美的风景",
-          "num":"13"
-        },
-        {
-          "id":76,
-          "img":"https://p2.music.126.net/ybOLwQdyIR3P4o-UPT3_Nw==/109951163913650332.jpg?param=50y50",
-          "name":"今年勇_s",
-          "text":"：水军真多",
-          "num":"22"
-        },
-        {
-          "id":77,
-          "img":"https://p2.music.126.net/DIBBG2BjY4zQ0dWSZg0gYQ==/109951164356028610.jpg?param=50y50",
-          "name":"作为真爱粉改名字我是认真的",
-          "text":"：听听第44首",
-          "num":"12"
-        },
-        {
-          "id":78,
-          "img":"https://p2.music.126.net/WpuHoJ-7_5dGhN-cwxU8Kg==/109951163908221562.jpg?param=50y50",
-          "name":"风神张月",
-          "text":"：像秋天枫叶等落地，你是我最美的风景",
-          "num":"13"
-        },
-        { 
-          "id":79,
-          "img":"https://p2.music.126.net/8S9SSbsHso1WFm-RjW_biw==/109951164264954525.jpg?param=50y50",
-          "name":"噗哇哦",
-          "text":"：啊默契",
-          "num":"42"
-        },
-        {
-          "id":80,
-          "img":"https://p2.music.126.net/kYbkQnHidIUDUOBgr01xRg==/109951164510512365.jpg?param=50y50",
-          "name":"成发中我",
-          "text":"好听",
-          "num":"13"
-        },
-        {
-          "id":81,
-          "img":"https://p2.music.126.net/kYbkQnHidIUDUOBgr01xRg==/109951164510512365.jpg?param=50y50",
-          "name":"成发中我",
-          "text":"：网易最好听的歌",
-          "num":"23"
-        },
-        {
-          "id":82,
-          "img":"https://p1.music.126.net/TWZUJJukRMbU7ddax_X6_Q==/109951163436086489.jpg?param=50y50",
-          "name":"毛团儿丶",
-          "text":": 不等了",
-          "num":"12"
-        },
-        {
-          "id":83,
-          "img":"https://p1.music.126.net/PhjsMArRVejkW2AkdttCIg==/109951164511919153.jpg?param=50y50",
-          "name":"过去给了回忆",
-          "text":": 有没有单身的女孩 我可以陪你聊天 可以给你唱歌 在你伤心的时候陪着你 哄你开心 以后等你有了男朋友 我们就互删吧 如果有机会我带你去吃炸鸡和啤酒吧我认真的 ！",
-          "num":"456"
-        },
-        {
-          "id":84,
-          "img":"https://p1.music.126.net/4RBI9mBfkQJt1SSdzIDAQQ==/109951163951944468.jpg?param=50y50",
-          "name":"用户1778642212",
-          "text":"：希望有一首小狼",
-          "num":"22"
-        },
-        {
-          "id":85,
-          "img":"https://p1.music.126.net/GwR7e_kWYnwO0BqbHFY8Pg==/109951164078804152.jpg?param=50y50",
-          "name":"狗子没胃口",
-          "text":"：啊默契",
-          "num":"52"
-        },
-        {
-          "id":86,
-          "img":"https://p1.music.126.net/i5hFtCsijovAmrCPqUDh8g==/18774161046318740.jpg?param=50y50",
-          "name":"黄川被注册了",
-          "text":"：啊默契 非常好听哦",
-          "num":"13"
-        },
-        {
-          "id":87,
-          "img":"https://p2.music.126.net/fUrPhaoZg_NEUlea77qmbg==/109951164309888865.jpg?param=50y50",
-          "name":"壊壊卋爱你",
-          "text":"：啊默契 好听💛💛",
-          "num":"22"
-        },
-        {
-          "id":88,
-          "img":"https://p1.music.126.net/hD_140xFPdFmIs8ZG4tv3g==/109951164352329011.jpg?param=50y50",
-          "name":"几分钟意e",
-          "text":"：有本事你唱啊，酸什么，不爱听别听",
-          "num":"42"
-        },
-        {
-          "id":89,
-          "img":"https://p1.music.126.net/q8i5BdOXaiM9zjQ1q3MShA==/109951163782002255.jpg?param=50y50",
-          "name":"伊人笑_MD",
-          "text":"：哪首歌好听啊",
-          "num":"3"
-        },
-        {
-          "id":90,
-          "img":"https://p1.music.126.net/3HBUMMu-x6Ty_Q2F1loOzQ==/18887410742082018.jpg?param=50y50",
-          "name":"摇曳的小思绪",
-          "text":"：真la圾",
-          "num":"22"
-        },
-        {
-          "id":91,
-          "img":"https://p1.music.126.net/vW92E75TIxK-upBNrKI8PA==/18864320997838368.jpg?param=50y50",
-          "name":"小金豆",
-          "text":"：这个有没有热评？来一个好吗？",
-          "num":"12"
-        },
-        {
-          "id":92,
-          "img":"https://p1.music.126.net/oPhb1CqDDkfEfV50OX4zUA==/109951164411119331.jpg?param=50y50",
-          "name":"幸福的模样1994",
-          "text":"：我们的默契只有我们懂",
-          "num":"33"
-        },
-        {
-          "id":93,
-          "img":"https://p1.music.126.net/JWBHpBltOTJyt-rRYQ-j_g==/109951164320426631.jpg?param=50y50",
-          "name":"MD_棚主家的安兔兔",
-          "text":"：十分之十完美",
-          "num":"22"
-        },
-        {
-          "id":94,
-          "img":"https://p2.music.126.net/nJnooSyjK9FDdD99Q5uGqA==/109951164254227641.jpg?param=50y50",
-          "name":"MD_为宁钟情1903",
-          "text":"：啊默契，超爱这首歌曲风，大气又感人。已经循环两天了，听不够。",
-          "num":"32"
-        },
-        {
-          "id":95,
-          "img":"https://p2.music.126.net/Igd-9L6Mx4VMI4UU8xrWSQ==/109951163895214271.jpg?param=50y50",
-          "name":"黑夜一束光正能量",
-          "text":"：啊默契，故事感十足",
-          "num":"18"
-        },
-        {
-          "id":96,
-          "img":"https://p2.music.126.net/RsJrcBdKJZJpB7Iyfqy5lg==/109951164310742669.jpg?param=50y50",
-          "name":"冬日暖阳_考研成功",
-          "text":"：你的二智bb《不等了》，真好听吖",
-          "num":"52"
         }
-  ],
-  "newtodis":[]
-}
+  ]
+  },
+  {
+  "title":"最新评论",
+  "todisww":[
+    {
+      "id":14,
+      "img":"https://p1.music.126.net/oPhb1CqDDkfEfV50OX4zUA==/109951164411119331.jpg?param=50y50",
+      "name":"幸福的模样1994",
+      "text":"：我们的默契只有我们懂",
+      "num":"33"
+    },
+    {
+      "id":15,
+      "img":"https://p1.music.126.net/JWBHpBltOTJyt-rRYQ-j_g==/109951164320426631.jpg?param=50y50",
+      "name":"MD_棚主家的安兔兔",
+      "text":"：十分之十完美",
+      "num":"22"
+    },
+    {
+      "id":16,
+      "img":"https://p2.music.126.net/nJnooSyjK9FDdD99Q5uGqA==/109951164254227641.jpg?param=50y50",
+      "name":"MD_为宁钟情1903",
+      "text":"：啊默契，超爱这首歌曲风，大气又感人。已经循环两天了，听不够。",
+      "num":"32"
+    },
+    {
+      "id":17,
+      "img":"https://p2.music.126.net/Igd-9L6Mx4VMI4UU8xrWSQ==/109951163895214271.jpg?param=50y50",
+      "name":"黑夜一束光正能量",
+      "text":"：啊默契，故事感十足",
+      "num":"18"
+    },
+    {
+      "id":18,
+      "img":"https://p2.music.126.net/RsJrcBdKJZJpB7Iyfqy5lg==/109951164310742669.jpg?param=50y50",
+      "name":"冬日暖阳_考研成功",
+      "text":"：你的二智bb《不等了》，真好听吖",
+      "num":"52"
+    },
+    { 
+      "id":19,
+      "img":"https://p2.music.126.net/DIBBG2BjY4zQ0dWSZg0gYQ==/109951164356028610.jpg?param=50y50",
+      "name":"作为真爱粉改名字我是认真的",
+      "text":"：听听第44首",
+      "num":"12"
+    },
+    {
+      "id":20,
+      "img":"https://p2.music.126.net/WpuHoJ-7_5dGhN-cwxU8Kg==/109951163908221562.jpg?param=50y50",
+      "name":"风神张月",
+      "text":"：像秋天枫叶等落地，你是我最美的风景",
+      "num":"13"
+    },
+    {
+      "id":21,
+      "img":"https://p2.music.126.net/ybOLwQdyIR3P4o-UPT3_Nw==/109951163913650332.jpg?param=50y50",
+      "name":"今年勇_s",
+      "text":"：水军真多",
+      "num":"22"
+    },
+    {
+      "id":22,
+      "img":"https://p2.music.126.net/u2e3xl0-P616WjkFhkLoVw==/109951164319922348.jpg?param=50y50",
+      "name":"X-Taylover-Forever-I",
+      "text":"：lover的remix都可以登榜",
+      "num":"2"
+    },
+    {
+      "id":23,
+      "img":"https://p1.music.126.net/OHr8F173lxDNhe7WQ64pSw==/109951163595958122.jpg?param=50y50",
+      "name":"紫蓝181010",
+      "text":"：啊默契",
+      "num":"3"
+    }
+  ]
+  },
+  {
+    "title":"喜欢这个歌单的人",
+    "img":[
+      "http://p1.music.126.net/RLeBJe4D1ZzUtltxfoKDMg==/109951163250239066.jpg?param=40y40",
+    "http://p1.music.126.net/wcVxB84WyPIqnVAzbFLO6g==/18591642115954946.jpg?param=40y40",
+    "http://p1.music.126.net/AOrlxfUkaBowGoSCbh1mYw==/109951164284030245.jpg?param=40y40",
+    "http://p1.music.126.net/CRtF83ZpMGQietWC8Dqfkg==/109951164398580216.jpg?param=40y40"
+    ],
+    "wenzi":[
+      "沙雕陶","听着yy的小情歌","ZJY-joyee","依旧弥生"
+    ]
+  }
+]
 
 

@@ -148,9 +148,9 @@
                                 </div>
                             </div>
                             <!-- 精彩评论 -->
-                            <div class="jcpl" >
-                                <h3>精彩评论</h3>
-                                <div class="item" v-for="(item,index) in say" :key="index">
+                            <div class="jcpl" v-for="(item,index) in say" :key="index">
+                                <h3>{{item.title}}</h3>
+                                <div class="item" v-for="(item,index) in say[0].todisww" :key="index" v-show="index>=j&&index<i">
                                     <div class="item-head">
                                         <a href="/user/home?id=1730850987"><img :src=item.img alt=""></a>
                                     </div>
@@ -170,9 +170,11 @@
                                         </div>
                                     </div>
                                 </div>
+                                
                             </div>
+                            <el-pagination background layout="prev, pager, next" :total="50" @current-change="change" ></el-pagination>
                             <!-- 最新评论 -->
-                            <div class="jcpl">
+                            <!-- <div class="jcpl">
                                 <h3>最新评论</h3>
                                 <div class="item" v-for="(item,index) in say" :key="index">
                                     <div class="item-head">
@@ -194,7 +196,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -204,12 +206,12 @@
                 <div class="white-right">
                     <div class="white-right-like">
                         <h3>
-                            <span>喜欢这个歌单的人</span>
+                            <span>{{say[2].title1}}</span>
                         </h3>
                         <ul>
-                            <li>
-                                <a href="/user/home?id=1887083289" title="嘻哈呵少女">
-                                    <img  src="http://p1.music.126.net/jFJqBSx_eXouMmOysivNag==/109951164421569269.jpg?param=40y40" alt="">
+                            <li v-for="(item,index) in say[2].img" :key="index">
+                                <a href="/user/home?id=1887083289" title="沙雕陶">
+                                    <img  :src=item alt="">
                                 </a>
                             </li>
                         </ul>
@@ -253,19 +255,52 @@ export default ({
         return{
             list:"",
             say:"",
+            j:0,
+            i:9
         }
     },
     mounted() {
+        
         this.$http.get("../../static/json/playlist.json").then((res)=>{
-            console.log(res.data.playlists[0])
-            this.list=res.data.playlists[0]
+            // console.log(res.data.playlists)
+            let num=this.$route.query.song   //获取地址栏参数
+            
+            this.list=res.data.playlists[num]
         }),
         this.$http.get("../../static/json/playlistSay.json").then((res)=>{
-            // console.log(res.data)
-            this.say=res.data.todisww
+            console.log(res.data[0].todisww[0].img)
+            this.say=res.data
         })
     },
-})
+    handleSizeChange(val){
+    console.log(`每页${val}条`)
+    },
+    handleSizeChange(val){
+        // console.log(val);
+        this.skip=val-1
+        this.$http({
+            url:"page",
+            methods: "post",
+            data:{
+            skip:this.skip
+            }
+        }).then(res=>{
+            console.log(res.data.data)
+            this.list=res.data.data
+        }).catch(err=>{})
+    },
+    methods: {
+        change(index){
+            if(index!=1){
+                this.j=(index-1)*9
+                this.i=index*9
+            }else{
+                this.j=0
+                this.i=9
+            }
+        }
+    },
+}) 
 </script>
 <style scoped>
 @import "../../static/css/commentlist.css";

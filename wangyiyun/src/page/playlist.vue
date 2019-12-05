@@ -9,8 +9,11 @@
           </div>
           <ul class="ul">
             <li class="li" v-for="(item,index) in arr" :key="index" v-show="index>=j&&index<i">
+              <router-link :to="{path:'/playlist?song='+(index+(35*skip))}">
               <div class="tupian">
+                
                 <img :src="item.coverImgUrl" alt />
+                
                 <div class="button">
                   <div class="bofang"></div>
                   <div class="erji"></div>
@@ -26,6 +29,7 @@
                   <a href>{{item.creator.nickname}}</a>
                 </span>
               </p>
+              </router-link>
             </li>
             <el-pagination background layout="prev, pager, next" :total="380" @current-change="change" ></el-pagination>
           </ul>
@@ -45,7 +49,8 @@ export default {
     return {
       arr: [],
       j:0,
-      i:35
+      i:35,
+      skip:0
     };
   },
   mounted() {
@@ -53,6 +58,24 @@ export default {
       console.log(arguments)
       this.arr = res.data.playlists;
     });
+  },
+  handleSizeChange(val){
+    console.log(`每页${val}条`)
+  },
+  handleSizeChange(val){
+    // console.log(val);
+    this.skip=val-1
+    this.$http({
+      url:"page",
+      methods: "post",
+      data:{
+        skip:this.skip
+      }
+    }).then(res=>{
+      console.log(res.data.data)
+      this.list=res.data.data
+    }).catch(err=>{})
+    
   },
   methods: {
     change(index){

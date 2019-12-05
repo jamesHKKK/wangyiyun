@@ -12,7 +12,7 @@ a:hover{
 }
 .commentlist-white{
     width: 982px;
-    height: 1733px;
+    height: 3000px;
     margin: 0 auto;
     border: 1px solid #d3d3d3;
     background: url('https://s2.music.126.net/style/web2/img/frame/wrap1.png?98e44268347ab70e741311ed29b06a47') repeat-y;
@@ -601,7 +601,7 @@ table{
 }
 .white-right-like ul li{
     display: inline;
-    padding: 0 0 13px 13px;
+    padding: 0 0 13px 8px;
 }
 .white-right-like ul li,.white-right-like ul li img{
     float: left;
